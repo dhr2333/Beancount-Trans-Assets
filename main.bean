@@ -1,0 +1,21 @@
+; 1. 账本信息
+option "title" "xxx的账本"
+option "operating_currency" "CNY"
+option "operating_currency" "COIN"
+option "operating_currency" "TIME"
+2022-01-01 custom "fava-option" "language" "zh" 
+2022-01-01 custom "fava-option" "auto-reload" "true"
+
+; 2. 账户设置
+include "account/assets.bean"
+include "account/equity.bean"
+include "account/expenses.bean"
+include "account/income.bean"
+include "account/liabilities.bean"
+
+; 3. 交易记录
+include "2021_template/00.bean"
+include "2022/00.bean"  ; 依据2021_template自行创建指定年份目录
+
+; 4. 定期折旧
+include "depreciation.bean"

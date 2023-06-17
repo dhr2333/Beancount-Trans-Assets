@@ -1,0 +1,48 @@
+; 2023-01-01 pad         Liabilities:CreditCard:Bank:ZhongXin:C0000 Income:Receivables:RedPacket
+; 2023-01-02 balance     Liabilities:CreditCard:Bank:ZhongXin:C0000 -5515.51 CNY
+; 2023-01-01 pad         Assets:Savings:Bank:NingBo:C0000 Income:Investment:Interest
+; 2023-01-02 balance     Assets:Savings:Bank:NingBo:C0000 121.99 CNY
+; 2023-01-01 pad         Assets:Savings:Bank:ZhaoShang:C0000 Income:Investment:Interest
+; 2023-01-02 balance     Assets:Savings:Bank:ZhaoShang:C0000 254.56 CNY
+; 2023-01-01 pad         Assets:Savings:Web:WechatPay Income:Investment:Interest
+; 2023-01-02 balance     Assets:Savings:Web:WechatPay 440.66 CNY
+; 2023-01-01 pad         Assets:Savings:Web:AliPay Income:Investment:Interest
+; 2023-01-02 balance     Assets:Savings:Web:AliPay 43.30 CNY
+
+; 2023-01-01 * "代付模板"
+;     Expenses:Food:Lunch                        10.00 CNY
+;     Assets:Receivables:Personal      10.00 CNY
+;     Assets:Receivables:Personal     10.00 CNY
+;     Assets:Receivables:Personal      -10.00 CNY
+;     Assets:Receivables:Personal     -10.00 CNY
+;     Assets:Savings:Web:WechatPay               10.00 CNY
+;     Assets:Savings:Web:WechatPay               10.00 CNY
+;     Liabilities:CreditCard:Bank:ZhongXin:C6428 -30.00 CNY
+
+; 2023-01-01 * "腾讯" "王者荣耀充值"
+;     Assets:Savings:Recharge:WangZhe            10.00 TOKEN @@ 1.00 CNY
+;     Assets:Savings:Web:WechatPay               -1.00 CNY
+;     Liabilities:CreditCard:Bank:ZhongXin:C6428 -1.00 CNY
+
+; 2023-01-22 * "腾讯" "王者荣耀支付"
+;     Expenses:Culture:Entertainment                 6.00 CNY
+;     Assets:Savings:Web:WechatPay               -6.00 CNY
+
+include "01-expenses.bean"
+include "02-expenses.bean"
+include "03-expenses.bean"
+include "04-expenses.bean"
+include "05-expenses.bean"
+include "06-expenses.bean"
+include "07-expenses.bean"
+include "09-expenses.bean"
+include "10-expenses.bean"
+include "11-expenses.bean"
+include "12-expenses.bean"
+include "event.bean"  ; 事件记录
+include "income.bean"  ; 收入(正常来说收入也存放*-expenses.bean文件)
+include "price.bean"  ; 价格变动
+include "invoice.bean"  ; 发票
+include "time.bean"  ;  按次消费
+include "cycle.bean"  ; 周期消费(例如信用卡还款、车贷、话费等)
+include "securities.bean"  ; 投资(正常来说投资也存放*-expenses.bean文件)

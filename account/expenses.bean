@@ -1,0 +1,65 @@
+; 餐饮美食
+2022-01-01 open Expenses:Food
+2022-01-01 open Expenses:Food:Breakfast CNY  ; 养生早餐
+2022-01-01 open Expenses:Food:Lunch CNY  ; 活力午餐
+2022-01-01 open Expenses:Food:Dinner CNY  ; 浪漫晚餐
+2022-01-01 open Expenses:Food:DrinkFruit CNY ; 饮料水果
+
+; 购物消费
+2022-01-01 open Expenses:Shopping
+2022-01-01 open Expenses:Shopping:Clothing CNY ; 服饰鞋包
+2022-01-01 open Expenses:Shopping:Digital CNY ; 数码电器
+2022-01-01 open Expenses:Shopping:Makeup CNY ; 美容美发
+2022-01-01 open Expenses:Shopping:Parent CNY ; 母婴亲子
+2022-01-01 open Expenses:Shopping:Single CNY ; 单次付费
+
+; 交通运输
+2022-01-01 open Expenses:TransPort
+2022-01-01 open Expenses:TransPort:Public CNY,COIN ; 公共交通(飞机/高铁/打车/公交/地铁/高速等)
+2022-01-01 open Expenses:TransPort:Private CNY ;养车爱车
+2022-01-01 open Expenses:TransPort:Private:Fuel CNY,COIN  ; 燃料费，包含汽油及电费
+2022-01-01 open Expenses:TransPort:Private:Park CNY ; 停车费
+
+; 文化休闲
+2022-01-01 open Expenses:Culture  ; 含(花/酒店)
+2022-01-01 open Expenses:Culture:Entertainment  CNY,TOKEN  ; 影音娱乐
+2022-01-01 open Expenses:Culture:Subscription CNY,USA ; 订阅服务(网易云音乐/华为/有道云笔记)
+
+; 居家生活
+2022-01-01 open Expenses:Home
+2022-01-01 open Expenses:Home:Recharge CNY,COIN  ; 充值缴费(水电燃气/物业/话费等)
+2022-01-01 open Expenses:Home:Decoration CNY  ; 家居家装
+2022-01-01 open Expenses:Home:Daily CNY  ; 日用百货
+2022-01-01 open Expenses:Home:Single CNY  ; 单次消费（房租/快递）
+
+; 人情来往
+2022-01-01 open Expenses:Relationship
+2022-01-01 open Expenses:Relationship:Relative CNY  ; 人情礼金
+2022-01-01 open Expenses:Relationship:Absolute CNY  ; 人情赠与
+2022-01-01 open Expenses:Relationship:Relationship CNY  ; 亲友代付
+
+; 医疗健康
+2022-01-01 open Expenses:Health  ; 含(门诊/挂号/体检等)
+2022-01-01 open Expenses:Health:Medical CNY ; 医疗药品
+
+; 政府事务
+2022-01-01 open Expenses:Government
+2022-01-01 open Expenses:Government:Insurance ; 社会保险
+2022-01-01 open Expenses:Government:Provident ; 住房公积金
+2022-01-01 open Expenses:Government:IncomeTax ; 个人所得税
+
+; 金融保险
+2022-01-01 open Expenses:Finance  ; 包含未知项
+2022-01-01 open Expenses:Finance:Commission  CNY  ; 金融中介(保险/手续费/贷款利息等)
+2022-01-01 open Expenses:Finance:Investment CNY  ; 投资理财(基础设施/学习)
+2022-01-01 open Expenses:Finance:Jewel CNY  ; 珠宝首饰(黄金/翡翠)
+2022-01-01 open Expenses:Finance:Depreciation CNY  ; 大件折旧(CarUsage/HouseUsage)
+
+; 暂无分类
+2023-01-01 open Expenses:Other
+
+2022-08-16 * "负债初始化"
+    Liabilities:CreditCard:Bank:ZhongXin:C6428  -20,469.49 CNY
+    Liabilities:CreditCard:Bank:Huaxia:C5636        -57.57 CNY
+    Liabilities:Payables:Organization:SiKo        -2999.00 CNY
+    Equity:OpenBalance 

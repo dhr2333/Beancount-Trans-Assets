@@ -1,0 +1,83 @@
+2022-01-01 open Assets:Savings:Bank:ZhaoShang:C0000 CNY ; 银行卡
+2022-01-01 open Assets:Savings:Bank:JianShe:C0000 CNY
+2022-10-08 close Assets:Savings:Bank:JianShe:C0000  ; 注销
+2023-03-03 open Assets:Savings:Bank:Jianshe:C0000 CNY
+2022-01-01 open Assets:Savings:Bank:NongYe:C0000 CNY
+2022-01-01 open Assets:Savings:Bank:GongShang:C0000 CNY
+2022-11-23 open Assets:Savings:Bank:GongShang:C0000 CNY
+2022-01-01 open Assets:Savings:Bank:HuaXia:C0000 CNY
+2022-01-01 open Assets:Savings:Bank:NingBo:C0000 CNY
+2022-01-01 open Assets:Savings:Web:AliPay CNY ; 三方支付(支付宝)
+2022-01-01 open Assets:Savings:Web:AliFund CNY  ; 余额宝
+2022-01-01 open Assets:Savings:Web:XiaoHeBao:Love CNY  ; 支付宝小荷包
+2022-01-01 open Assets:Savings:Web:WechatPay CNY  ; 微信支付
+2022-01-01 open Assets:Savings:Web:WechatFund CNY  ; 零钱通
+
+; 应收款项
+2022-01-01 open Assets:Receivables:Organization:MaiJiaGongYu CNY  ; 房租押金
+2022-01-01 open Assets:Receivables:Organization:Wlhiot CNY
+2023-02-04 open Assets:Receivables:Organization:BYD
+2023-02-25 open Assets:Receivables:Organization:SiKou
+2022-01-01 open Assets:Receivables:Personal CNY  ; 个人 
+
+; 代币
+2022-01-01 open Assets:Savings:Recharge:YiMing COIN  ; 一鸣
+2022-01-01 open Assets:Savings:Recharge:YongHeDouJiang COIN  ; 永和豆浆
+2022-01-01 open Assets:Savings:Recharge:LiangLiangJiaDao COIN  ; 粮粮驾到
+2023-01-07 open Assets:Savings:Recharge:NiangNiangDaRen COIN  ; 娘娘大人
+2022-01-01 open Assets:Savings:Recharge:LaoPoDaRen COIN  ; 老婆大人
+2022-01-01 open Assets:Savings:Recharge:JD COIN
+2022-01-01 open Assets:Savings:Recharge:AliCloud COIN  ; 阿里云
+2022-01-01 open Assets:Savings:Recharge:TransPort:JiangSu COIN  ; 城市交通卡
+2022-01-01 open Assets:Savings:Recharge:TransPort:BeiJing COIN
+2022-01-01 open Assets:Savings:Recharge:TransPort:ShangHai COIN
+2023-04-04 open Assets:Savings:Recharge:TransPort:HangZhou COIN
+2022-01-01 open Assets:Savings:Recharge:Operator:Mobile:C6428 COIN  ; 手机卡
+2022-01-01 open Assets:Savings:Recharge:Operator:Telecom COIN
+2022-01-01 open Assets:Savings:Government:Provident:WenZhou COIN  ; 公积金
+2022-01-01 open Assets:Investment:AliPay:Gold  ; 支付宝黄金
+2022-01-01 open Assets:Investment:Stocks:NongYe0000  ; 农行股票账户
+
+; 特殊账户
+2022-01-01 open Assets:Savings:Cash CNY  ; 现金
+2022-01-01 open Assets:Savings:Pledge CNY  ; 押金
+2022-01-01 open Assets:Document  ; 文档记录
+2022-01-01 open Assets:Other  ; 未分类
+
+; 点券(与人民币非1:1兑换)
+2022-01-01 open Assets:Savings:Recharge:HuaWei:Read TOKEN
+2022-01-01 open Assets:Savings:Recharge:WangZhe TOKEN
+
+2022-08-16 * "存款初始化"
+    Assets:Savings:Bank:ZhaoShang:C8837            0.00 CNY
+    Assets:Savings:Bank:JianShe:C2105              0.00 CNY
+    Assets:Savings:Bank:GongShang:C7651            0.00 CNY
+    Assets:Savings:Web:AliPay                      0.00 CNY
+    Assets:Savings:Web:WechatPay                   0.00 CNY
+    Assets:Savings:Recharge:LiangLiangJiaDao       0.00 COIN
+    Assets:Savings:Recharge:HuaWei:House           0.00 CNY
+    Assets:Savings:Recharge:HuaWei:Read            0.00 TOKEN
+    Assets:Savings:Recharge:YongHeDouJiang         0.00 COIN
+    Assets:Savings:Recharge:LaoPoDaRen             0.00 COIN
+    Assets:Savings:Recharge:YiMing                 0.00 COIN
+    Assets:Savings:Recharge:MHPC                   0.00 COIN
+    Assets:Savings:Recharge:Cake                   0.00 COIN
+    Assets:Savings:Time:Cake                       0.00 TIME
+    Assets:Savings:Recharge:WangZhe                0.00 TOKEN
+    Assets:Savings:Recharge:AliCloud               0.00 COIN
+    Assets:Savings:Recharge:TransPort:JiangSu      0.00 COIN
+    Assets:Savings:Recharge:TransPort:BeiJing      0.00 COIN
+    Assets:Savings:Recharge:TransPort:ShangHai     0.00 COIN
+    Assets:Investment:AliPay:Gold                  5.6411 GOLD {{2000.00 CNY,2021-09-27}}
+    Assets:Investment:Stocks:NongYe3908            0.00 CNY
+    Assets:Investment:Stocks:ZhaoShang6700         0.00 CNY
+    Assets:Savings:Government:Provident:WenZhou    0.00 COIN
+    Assets:Savings:Government:Provident:ShangHai   0.00 COIN
+    Assets:Receivables:Organization:MaiJiaGongYu   0.00 CNY
+    Assets:Receivables:Personal                 0.00 CNY
+    Equity:OpenBalance
+
+2022-08-16 * "话费初始化"
+    Assets:Savings:Recharge:Operator:Mobile:C6428    0.00 COIN
+    Assets:Savings:Recharge:Operator:Telecom           0.00 COIN
+    Equity:OpenBalance

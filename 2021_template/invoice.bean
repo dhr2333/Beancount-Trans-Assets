@@ -1,0 +1,8 @@
+plugin "beancount.plugins.tag_pending"
+
+; 2022-09-30 * "垫付机票" ^201909-out
+;     Liabilities:CreditCard:Bank:ZhongXin:C6428      -1000.00 CNY
+;     Assets:Receivables:Organization:MaiJiaGongYu     1000.00 CNY
+; 2022-10-30 * "报销到账" ^201909-out
+;     Liabilities:CreditCard:Bank:ZhongXin:C6428       1000.00 CNY
+;     Assets:Receivables:Organization:MaiJiaGongYu    -1000.00 CNY

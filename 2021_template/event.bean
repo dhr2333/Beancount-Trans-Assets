@@ -1,0 +1,8 @@
+; 目前有以下事件被记录
+; Location Employer Haircut Record
+; 地点      工作     记录
+
+; 2021-09-11 event "Location" "浙江温州 -> 浙江杭州"
+; 2021-10-11 event "Employer" "入职 | xxx有限公司 | 温州 | xxx | 薪资 xxx"
+; 2021-10-12 event "Employer" "离职 | xxx有限公司 | 温州 | xxx | 薪资 xxx"
+; 2021-10-09 event "Record" "拔智齿"

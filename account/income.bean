@@ -1,0 +1,33 @@
+2022-01-01 open Income:Salary:Wlhiot CNY  ; 工资收益
+2022-01-01 open Income:Salary:Wlhiot:Subsidy CNY  ; 补贴
+2022-01-01 open Income:Salary:Wlhiot:Subsidy:Meal CNY  ; 餐补
+2022-01-01 open Income:Salary:Wlhiot:Subsidy:Provident COIN  ; 公积金
+2022-01-01 open Income:Salary:Wlhiot:Subsidy:Other CNY  ; 其他补贴
+2022-01-01 open Income:Salary:Wlhiot:Deduct CNY  ; 扣款(迟到、早退、旷工等)
+2022-01-01 open Income:Salary:Wlhiot:Indemnity CNY  ; 赔偿
+
+2022-01-01 open Income:Salary:YunGu CNY  ; 工资收益
+2022-01-01 open Income:Salary:YunGu:Subsidy CNY  ; 工资收益
+2022-01-01 open Income:Salary:YunGu:Deduct CNY  ; 扣款(迟到、早退、旷工等)
+
+2022-01-01 open Income:Sideline CNY  ; 副业收益
+2022-01-01 open Income:Sideline:DiDi CNY  ; 副业收益(滴滴车主)
+
+2022-01-01 open Income:Investment CNY  ; 投资收益(股票、黄金、利息等)
+2022-01-01 open Income:Investment:Interest CNY  ; 投资收益(股票、黄金、利息等)
+; 2022-01-01 open Income:Work:Other CNY  ; 工作收益(其他)
+
+2022-01-01 open Income:Receivables  ; 应收账款（包含红包、优惠券、购物卡等）
+2022-01-01 open Income:Receivables:RedPacket  ; 红包
+2022-01-01 open Income:Receivables:Coupon  ; 优惠券
+2022-01-01 open Income:Receivables:Card  ; 购物卡
+2022-01-01 open Income:Relationship:Relative CNY  ; 礼金(我结婚时使用该账户，方便后续礼金返还)
+
+2022-01-01 open Income:Government CNY ; 政策收益
+2022-01-01 open Income:Government:Tax CNY ; 退税
+2022-01-01 open Income:Government:Subsidy:Work CNY ; 政府补贴
+2022-01-01 open Income:Government:Subsidy:Rent CNY ; 租房补贴
+2022-01-01 open Income:Government:Subsidy:Car CNY ; 购车补贴
+2022-01-01 open Income:Government:Subsidy:Unemployment CNY ; 失业补贴
+
+2023-01-01 open Income:Other  ; 未分类
