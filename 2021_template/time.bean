@@ -1,5 +1,5 @@
 ; 按次消费(待消费),每年更新至最新一年账本
 
 ; 按次消费(已消费),消费记录正常归档至上一年记录
-; 2022-09-04 open Assets:Savings:Time:Foot TIME
-; 2022-09-22 close Assets:Savings:Time:Foot
+2022-01-01 open Assets:Savings:Time:Foot TIME
+2022-09-01 close Assets:Savings:Time:Foot

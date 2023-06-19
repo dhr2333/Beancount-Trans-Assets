@@ -57,9 +57,3 @@
 
 ; 暂无分类
 2023-01-01 open Expenses:Other
-
-2022-08-16 * "负债初始化"
-    Liabilities:CreditCard:Bank:ZhongXin:C6428  -20,469.49 CNY
-    Liabilities:CreditCard:Bank:Huaxia:C5636        -57.57 CNY
-    Liabilities:Payables:Organization:SiKo        -2999.00 CNY
-    Equity:OpenBalance 
