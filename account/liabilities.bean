@@ -11,7 +11,7 @@
 
 2022-01-01 open Liabilities:Payables:Personal:Delay  CNY  ; 应付但未付
 
-2022-08-16 * "负债初始化"
-    Liabilities:CreditCard:Bank:ZhongXin:C0000  -0.00 CNY
-    Liabilities:CreditCard:Web:HuaBei           -0.00 CNY
-    Equity:OpenBalance 
+; 2022-08-16 * "负债初始化"
+;     Liabilities:CreditCard:Bank:ZhongXin:C0000  -0.00 CNY
+;     Liabilities:CreditCard:Web:HuaBei           -0.00 CNY
+;     Equity:OpenBalance 

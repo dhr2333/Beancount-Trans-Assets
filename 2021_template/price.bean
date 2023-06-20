@@ -1,11 +1,11 @@
 ; beancount中可以使用多种通货，但好比不同货币有汇率，这些通货之间也有对应数量关系，比较直观的理解是某个东西有价格，这就是单位通货和货币的汇率
 ;功能：导入某个通货某日的价格
 ;语法：时间 price 通货 价格
-2021-01-03 price GOLD 366.6525 CNY 
-2021-04-03 price GOLD 354.4545 CNY 
-2021-07-03 price GOLD 379.0785 CNY 
-2021-10-02 price GOLD 383.9236 CNY 
-2021-12-03 price GOLD 369.4740 CNY
+; 2021-01-03 price GOLD 366.6525 CNY 
+; 2021-04-03 price GOLD 354.4545 CNY 
+; 2021-07-03 price GOLD 379.0785 CNY 
+; 2021-10-02 price GOLD 383.9236 CNY 
+; 2021-12-03 price GOLD 369.4740 CNY
 ; 2022年黄金2月份之后猛涨，7月份之后下跌
 
 ; 2022-01-01 note Assets:Savings:Bank:ZhaoShang:C8837 "test"

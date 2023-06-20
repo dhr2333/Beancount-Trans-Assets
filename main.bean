@@ -13,9 +13,8 @@ include "account/expenses.bean"
 include "account/income.bean"
 include "account/liabilities.bean"
 
-; 3. 交易记录
-include "2021_template/00.bean"
-; include "2022/00.bean"  ; 依据2021_template自行创建指定年份目录
-
-; 4. 定期折旧
+; 3. 定期折旧
 include "depreciation.bean"
+
+; 4. 交易记录
+include "2021_template/00.bean"  ; Beancount-Trans项目会自动include账单
