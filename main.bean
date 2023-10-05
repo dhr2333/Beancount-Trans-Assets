@@ -17,4 +17,4 @@ include "account/liabilities.bean"
 include "depreciation.bean"
 
 ; 4. 交易记录
-include "2021_template/00.bean"  ; Beancount-Trans项目会自动include账单
+include "2022_template/00.bean"  ; Beancount-Trans项目会自动include账单

@@ -1,0 +1,10 @@
+; 2021-01-31 pad         Liabilities:CreditCard:Bank:ZhongXin:C0000 Income:Receivables:RedPacket
+; 2021-02-01 balance     Liabilities:CreditCard:Bank:ZhongXin:C0000 -5515.51 CNY
+; 2021-01-31 pad         Assets:Savings:Bank:NingBo:C0000 Income:Investment:Interest
+; 2021-02-01 balance     Assets:Savings:Bank:NingBo:C0000 121.99 CNY
+; 2021-01-31 pad         Assets:Savings:Bank:ZhaoShang:C0000 Income:Investment:Interest
+; 2021-02-01 balance     Assets:Savings:Bank:ZhaoShang:C0000 254.56 CNY
+; 2021-01-31 pad         Assets:Savings:Web:WechatPay Income:Investment:Interest
+; 2021-02-01 balance     Assets:Savings:Web:WechatPay 440.66 CNY
+; 2021-01-31 pad         Assets:Savings:Web:AliPay Income:Investment:Interest
+; 2021-02-01 balance     Assets:Savings:Web:AliPay 43.30 CNY

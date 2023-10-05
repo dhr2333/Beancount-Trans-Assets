@@ -44,6 +44,7 @@
 
 ; 政府事务
 2022-01-01 open Expenses:Government
+2022-01-01 open Expenses:Government:Fine  ; 罚款
 2022-01-01 open Expenses:Government:Insurance ; 社会保险
 2022-01-01 open Expenses:Government:Provident ; 住房公积金
 2022-01-01 open Expenses:Government:IncomeTax ; 个人所得税
