@@ -1,3 +1,44 @@
+; 2022-08-16 * "存款初始化"
+;     Assets:Savings:Web:AliPay                        0.00 CNY
+;     Assets:Savings:Web:WechatPay                     0.00 CNY
+;     Assets:Savings:Time:Foot                         0.00 TIME
+;     Assets:Savings:Recharge:WangZhe                  0.00 TOKEN
+;     Assets:Savings:Recharge:AliCloud                 0.00 COIN
+;     Assets:Savings:Recharge:TransPort:ShangHai       0.00 COIN
+;     Assets:Investment:AliPay:Gold                  5.6411 GOLD {{2000.00 CNY,2021-09-27}}
+;     Assets:Investment:Stocks:NongYe0000              0.00 CNY
+;     Assets:Savings:Government:Provident:ShangHai     0.00 COIN
+;     Assets:Receivables:Personal                      0.00 CNY
+;     Equity:OpenBalance
+
+; 2022-08-16 * "话费初始化"
+;     Assets:Savings:Recharge:Operator:Mobile:C6428    0.00 COIN
+;     Equity:OpenBalance
+
+; 2022-08-16 * "负债初始化"
+;     Liabilities:CreditCard:Bank:ZhongXin:C0000  -0.00 CNY
+;     Liabilities:CreditCard:Web:HuaBei           -0.00 CNY
+;     Equity:OpenBalance 
+
+include "01-expenses.bean"
+include "02-expenses.bean"
+include "03-expenses.bean"
+include "04-expenses.bean"
+include "05-expenses.bean"
+include "06-expenses.bean"
+include "07-expenses.bean"
+include "09-expenses.bean"
+include "10-expenses.bean"
+include "11-expenses.bean"
+include "12-expenses.bean"
+include "event.bean"  ; 事件记录
+include "income.bean"  ; 收入(正常来说收入也存放*-expenses.bean文件)
+include "price.bean"  ; 价格变动
+include "invoice.bean"  ; 发票
+include "time.bean"  ;  按次消费
+include "cycle.bean"  ; 周期消费(例如信用卡还款、车贷、话费等)
+include "securities.bean"  ; 投资(正常来说投资也存放*-expenses.bean文件)
+
 ; 2022-01-01 pad         Liabilities:CreditCard:Bank:ZhongXin:C0000 Income:Receivables:RedPacket
 ; 2022-01-02 balance     Liabilities:CreditCard:Bank:ZhongXin:C0000 -5515.51 CNY
 ; 2022-01-01 pad         Assets:Savings:Bank:NingBo:C0000 Income:Investment:Interest
@@ -29,22 +70,3 @@
 ; 2022-01-22 * "腾讯" "王者荣耀支付"
 ;     Expenses:Culture:Entertainment                 6.00 CNY
 ;     Assets:Savings:Web:WechatPay               -6.00 CNY
-
-include "01-expenses.bean"
-include "02-expenses.bean"
-include "03-expenses.bean"
-include "04-expenses.bean"
-include "05-expenses.bean"
-include "06-expenses.bean"
-include "07-expenses.bean"
-include "09-expenses.bean"
-include "10-expenses.bean"
-include "11-expenses.bean"
-include "12-expenses.bean"
-include "event.bean"  ; 事件记录
-include "income.bean"  ; 收入(正常来说收入也存放*-expenses.bean文件)
-include "price.bean"  ; 价格变动
-include "invoice.bean"  ; 发票
-include "time.bean"  ;  按次消费
-include "cycle.bean"  ; 周期消费(例如信用卡还款、车贷、话费等)
-include "securities.bean"  ; 投资(正常来说投资也存放*-expenses.bean文件)

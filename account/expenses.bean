@@ -41,6 +41,7 @@
 ; 医疗健康
 2022-01-01 open Expenses:Health  ; 含(门诊/挂号/体检等)
 2022-01-01 open Expenses:Health:Medical CNY ; 医疗药品
+2022-01-01 open Expenses:Health:Equipment CNY ; 医疗设备
 
 ; 政府事务
 2022-01-01 open Expenses:Government

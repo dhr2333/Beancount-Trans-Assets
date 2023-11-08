@@ -27,20 +27,3 @@
 
 ; 点券(与人民币非1:1兑换)
 2022-01-01 open Assets:Savings:Recharge:WangZhe TOKEN
-
-; 2022-08-16 * "存款初始化"
-;     Assets:Savings:Web:AliPay                        0.00 CNY
-;     Assets:Savings:Web:WechatPay                     0.00 CNY
-;     Assets:Savings:Time:Foot                         0.00 TIME
-;     Assets:Savings:Recharge:WangZhe                  0.00 TOKEN
-;     Assets:Savings:Recharge:AliCloud                 0.00 COIN
-;     Assets:Savings:Recharge:TransPort:ShangHai       0.00 COIN
-;     Assets:Investment:AliPay:Gold                  5.6411 GOLD {{2000.00 CNY,2021-09-27}}
-;     Assets:Investment:Stocks:NongYe0000              0.00 CNY
-;     Assets:Savings:Government:Provident:ShangHai     0.00 COIN
-;     Assets:Receivables:Personal                      0.00 CNY
-;     Equity:OpenBalance
-
-; 2022-08-16 * "话费初始化"
-;     Assets:Savings:Recharge:Operator:Mobile:C6428    0.00 COIN
-;     Equity:OpenBalance
