@@ -3,7 +3,7 @@
 ```shell
 pip install beancount
 pip install fava
-fava D:\MyNutcloud\Assets\main.bean
+fava main.bean
 ```
 
 # Doc

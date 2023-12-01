@@ -1,4 +1,4 @@
-; 1. 账本信息
+; 1. 账本元数据
 option "title" "xxx的账本"
 option "operating_currency" "CNY"
 option "operating_currency" "COIN"

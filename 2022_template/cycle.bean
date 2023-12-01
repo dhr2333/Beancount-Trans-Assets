@@ -1,4 +1,9 @@
-; 当前需要手动记录（信用卡还款/话费/车贷）
+; 当前需要手动记录（信用卡还款/话费/车贷/不走支付宝微信的订阅）
+
+; 2022-11-12 * "GitHub" "Copilot"
+;     Expenses:Culture:Subscription                                         73.09 CNY
+;     Liabilities:CreditCard:Bank:ZhongXin:C0000                           -73.09 CNY
+
 ; 2022-05-02 * "中信银行" "信用卡还款"
 ;     Assets:Savings:Bank:ZhaoShang:C0000                               -2052.18 CNY
 ;     Liabilities:CreditCard:Bank:ZhongXin:C0000                          2052.18 CNY

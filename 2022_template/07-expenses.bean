@@ -1,0 +1,13 @@
+; 2022-07-01 balance      Liabilities:CreditCard:Bank:ZhongXin:C0000  -5515.51 CNY
+; 2022-06-30 pad          Liabilities:CreditCard:Bank:ZhongXin:C0000 Income:Receivables:RedPacket
+; 2022-07-01 balance      Assets:Savings:Bank:NingBo:C0000              121.99 CNY
+; 2022-06-30 pad          Assets:Savings:Bank:NingBo:C0000 Income:Investment:Interest
+; 2022-07-01 balance      Assets:Savings:Bank:ZhaoShang:C0000           254.56 CNY
+; 2022-06-30 pad          Assets:Savings:Bank:ZhaoShang:C0000 Income:Investment:Interest
+; 2022-07-01 balance      Assets:Savings:Web:WechatFund                  440.66 CNY
+; 2022-06-30 pad          Assets:Savings:Web:WechatFund Income:Investment:Interest
+; 2022-07-01 balance      Assets:Savings:Web:AliFund                     43.30 CNY
+; 2022-06-30 pad          Assets:Savings:Web:AliFund Income:Investment:Interest
+; 2023-07-01 balance      Assets:Savings:Recharge:LiangLiangJiaDao       81.50 COIN
+; 2023-07-01 balance      Assets:Savings:Recharge:NiangNiangDaRen       112.06 COIN
+; 2023-07-01 balance      Assets:Savings:Recharge:LaoPoDaRen            112.06 COIN

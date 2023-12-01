@@ -6,10 +6,6 @@
 2022-01-01 open Income:Salary:Wlhiot:Deduct CNY  ; 扣款(迟到、早退、旷工等)
 2022-01-01 open Income:Salary:Wlhiot:Indemnity CNY  ; 赔偿
 
-2022-01-01 open Income:Salary:YunGu CNY  ; 工资收益
-2022-01-01 open Income:Salary:YunGu:Subsidy CNY  ; 工资收益
-2022-01-01 open Income:Salary:YunGu:Deduct CNY  ; 扣款(迟到、早退、旷工等)
-
 2022-01-01 open Income:Sideline CNY  ; 副业收益
 2022-01-01 open Income:Sideline:DiDi CNY  ; 副业收益(滴滴车主)
 

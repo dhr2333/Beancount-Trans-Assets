@@ -4,9 +4,7 @@
 2022-01-01 open Liabilities:CreditCard:Web:HuaBei CNY  ; 三方支付
 2023-01-02 close Liabilities:CreditCard:Web:HuaBei
 
-2023-02-04 open Liabilities:Payables:Organization:BYD CNY  ; 对XX的债务(机构)
-2028-02-04 close Liabilities:Payables:Organization:BYD  ; 债务还清则关闭
-2023-02-04 open Liabilities:Payables:Interest:BYD CNY  ; 贷款利息
-2022-01-01 open Liabilities:Payables:Personal  CNY ; 对XX的债务(个人)
+2022-01-01 open Liabilities:Payables:Personal CNY  ; 对XX的债务(个人)
+2022-01-01 open Liabilities:Payables:Organization CNY  ; 对XX的债务(机构)
 
 2022-01-01 open Liabilities:Payables:Personal:Delay  CNY  ; 应付但未付

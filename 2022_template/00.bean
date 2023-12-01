@@ -39,17 +39,6 @@ include "time.bean"  ;  按次消费
 include "cycle.bean"  ; 周期消费(例如信用卡还款、车贷、话费等)
 include "securities.bean"  ; 投资(正常来说投资也存放*-expenses.bean文件)
 
-; 2022-01-01 pad         Liabilities:CreditCard:Bank:ZhongXin:C0000 Income:Receivables:RedPacket
-; 2022-01-02 balance     Liabilities:CreditCard:Bank:ZhongXin:C0000 -5515.51 CNY
-; 2022-01-01 pad         Assets:Savings:Bank:NingBo:C0000 Income:Investment:Interest
-; 2022-01-02 balance     Assets:Savings:Bank:NingBo:C0000 121.99 CNY
-; 2022-01-01 pad         Assets:Savings:Bank:ZhaoShang:C0000 Income:Investment:Interest
-; 2022-01-02 balance     Assets:Savings:Bank:ZhaoShang:C0000 254.56 CNY
-; 2022-01-01 pad         Assets:Savings:Web:WechatPay Income:Investment:Interest
-; 2022-01-02 balance     Assets:Savings:Web:WechatPay 440.66 CNY
-; 2022-01-01 pad         Assets:Savings:Web:AliPay Income:Investment:Interest
-; 2022-01-02 balance     Assets:Savings:Web:AliPay 43.30 CNY
-
 ; pushtag #20221001-hangzhou  ; 所有在pushtag和poptag之间的记录都会被打上标签
 ; 2022-01-01 * "代付模板"
 ;     Expenses:Food:Lunch                        10.00 CNY

@@ -1,27 +1,27 @@
-; 2024-02-04 * "海豹折旧"
+; 2024-02-04 * "汽车折旧"
 ;   Assets:Depreciation:Car:BYD              -30000.00 CNY
 ;   Expenses:Finance:Depreciation            30000.00 CNY
 
-; 2025-02-04 * "海豹折旧"
+; 2025-02-04 * "汽车折旧"
 ;   Assets:Depreciation:Car:BYD              -30000.00 CNY
 ;   Expenses:Finance:Depreciation            30000.00 CNY
 
-; 2026-02-04 * "海豹折旧"
+; 2026-02-04 * "汽车折旧"
 ;   Assets:Depreciation:Car:BYD              -30000.00 CNY
 ;   Expenses:Finance:Depreciation            30000.00 CNY
 
-; 2027-02-04 * "海豹折旧"
+; 2027-02-04 * "汽车折旧"
 ;   Assets:Depreciation:Car:BYD              -30000.00 CNY
 ;   Expenses:Finance:Depreciation            30000.00 CNY
 
-; 2028-02-04 * "海豹折旧"
+; 2028-02-04 * "汽车折旧"
 ;   Assets:Depreciation:Car:BYD              -30000.00 CNY
 ;   Expenses:Finance:Depreciation            30000.00 CNY
 
-; 2029-02-04 * "海豹折旧"
+; 2029-02-04 * "汽车折旧"
 ;   Assets:Depreciation:Car:BYD              -30000.00 CNY
 ;   Expenses:Finance:Depreciation            30000.00 CNY
 
-; 2030-02-04 * "海豹折旧"
+; 2030-02-04 * "汽车折旧"
 ;   Assets:Depreciation:Car:BYD              -30000.00 CNY
 ;   Expenses:Finance:Depreciation            30000.00 CNY
