@@ -4,22 +4,21 @@
 2022-10-08 close Assets:Savings:Bank:JianShe:C0000  ; 注销
 2022-01-01 open Assets:Savings:Web:AliPay CNY ; 三方支付(支付宝)
 2022-01-01 open Assets:Savings:Web:AliFund CNY  ; 余额宝
-2022-01-01 open Assets:Savings:Web:XiaoHeBao:Love CNY  ; 支付宝小荷包
 2022-01-01 open Assets:Savings:Web:WechatPay CNY  ; 微信支付
 2022-01-01 open Assets:Savings:Web:WechatFund CNY  ; 零钱通
 
 ; 应收款项
-2022-01-01 open Assets:Receivables:Organization:MaiJiaGongYu CNY  ; 房租押金
+2022-01-01 open Assets:Receivables:Organization CNY  ; 组织
 2022-01-01 open Assets:Receivables:Personal CNY  ; 个人 
 2022-01-01 open Assets:Receivables:Pledge CNY  ; 押金
 
 ; 代币(与人民币1:1兑换)
 2022-01-01 open Assets:Savings:Recharge:AliCloud COIN  ; 阿里云
 2022-01-01 open Assets:Savings:Recharge:TransPort:ShangHai COIN ; 城市交通卡
-2022-01-01 open Assets:Savings:Recharge:Operator:Mobile:C6428 COIN  ; 手机卡
+2022-01-01 open Assets:Savings:Recharge:Operator:Mobile:C0000 COIN  ; 手机卡
 2022-01-01 open Assets:Savings:Government:Provident:ShangHai COIN  ; 公积金
 2022-01-01 open Assets:Investment:AliPay:Gold  ; 支付宝黄金
-2022-01-01 open Assets:Investment:Stocks:NongYe0000  ; 农行股票账户
+2022-01-01 open Assets:Investment:Stocks:NongYe:C0000  ; 农行股票账户
 
 ; 特殊账户
 2022-01-01 open Assets:Document  ; 文档记录

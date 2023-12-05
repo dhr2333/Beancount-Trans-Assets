@@ -6,8 +6,19 @@
 ; 2021-07-03 price GOLD 379.0785 CNY 
 ; 2021-10-02 price GOLD 383.9236 CNY 
 ; 2021-12-03 price GOLD 369.4740 CNY
+2023-01-03 price GOLD 394.9530 CNY  ; 易方达黄金
+2023-02-02 price GOLD 401.7360 CNY 
+2023-03-01 price GOLD 397.0905 CNY 
+2023-04-03 price GOLD 416.7270 CNY 
+2023-05-04 price GOLD 432.5160 CNY 
+2023-06-02 price GOLD 430.5495 CNY 
+2023-07-03 price GOLD 428.4975 CNY 
+2023-08-01 price GOLD 433.6560 CNY 
+2023-09-01 price GOLD 441.2370 CNY 
+2023-10-09 price GOLD 417.4110 CNY 
+2023-11-01 price GOLD 451.4970 CNY 
+2023-12-01 price GOLD 450.1005 CNY
 ; 2022年黄金2月份之后猛涨，7月份之后下跌
 
 ; 2022-01-01 note Assets:Savings:Bank:ZhaoShang:C8837 "test"
-; 2022-01-01 document Assets:Document "../5-doc/beancount.xmind"
 2022-01-01 document Assets:Document "../document/Syntax_Cheat_Sheet.png"

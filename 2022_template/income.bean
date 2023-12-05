@@ -4,10 +4,10 @@
 
 ; 2022-12-15 * "xxx" "2022.11's salary"
 ;     Income:Salary:Wlhiot                    -8000.00 CNY ; 应发薪资
-;     Income:Salary:Wlhiot:Subsidy:Meal               -357.00 CNY ; 餐补
-;     Income:Salary:Wlhiot:Subsidy:Provident          -483.00 COIN ; 公积金
+;     Income:Salary:Wlhiot:Subsidy:Meal        -357.00 CNY ; 餐补
+;     Income:Salary:Wlhiot:Subsidy:Provident   -483.00 COIN ; 公积金
 ;     Expenses:Government:Insurance             468.23 CNY ; 社保
-;     Expenses:Government:Provident           -1,417.00 CNY @@ 1,417.00 COIN  ; 以公积金入账
+;     Expenses:Government:Provident          -1,417.00 CNY @@ 1,417.00 COIN  ; 以公积金入账
 ;     Expenses:Government:Provident           1,417.00 CNY ; 工资支出
 ;     Expenses:Government:IncomeTax              44.16 CNY ; 个人所得税
 ;     Assets:Savings:Government:Provident:WenZhou 1900.00 COIN

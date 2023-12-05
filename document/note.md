@@ -1,11 +1,3 @@
-# Download
-
-```shell
-pip install beancount
-pip install fava
-fava main.bean
-```
-
 # Doc
 
 > https://byvoid.com/zhs/blog/beancount-bookkeeping-3/  # [推荐]完整项目

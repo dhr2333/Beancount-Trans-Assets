@@ -10,8 +10,12 @@
 
 以月进行记录，以年进行存档。
 
+入门教程：[Beancount 入门教程](https://www.dhr2333.cn/article/2022/9/10/52.html)
+
 # 运行项目
 
 ```shell
+pip install beancount
+pip install fava
 fava main.bean
 ```

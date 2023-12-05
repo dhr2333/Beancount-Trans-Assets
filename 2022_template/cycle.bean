@@ -1,11 +1,11 @@
 ; 当前需要手动记录（信用卡还款/话费/车贷/不走支付宝微信的订阅）
 
 ; 2022-11-12 * "GitHub" "Copilot"
-;     Expenses:Culture:Subscription                                         73.09 CNY
+;     Expenses:Culture:Subscription                                         10.00 USD @@ 73.09 CNY
 ;     Liabilities:CreditCard:Bank:ZhongXin:C0000                           -73.09 CNY
 
 ; 2022-05-02 * "中信银行" "信用卡还款"
-;     Assets:Savings:Bank:ZhaoShang:C0000                               -2052.18 CNY
+;     Assets:Savings:Bank:ZhaoShang:C0000                                -2052.18 CNY
 ;     Liabilities:CreditCard:Bank:ZhongXin:C0000                          2052.18 CNY
 
 ; 2022-05-01 * "中国移动" "话费"
@@ -14,5 +14,5 @@
 
 ; 2022-04-06 * "比亚迪" "车贷"
 ;     Assets:Savings:Bank:ZhaoShang:C0000                                -4499.68 CNY
-;     Liabilities:Payables:Organization:BYD                              4161.111 CNY  ; 实际金额
-;     Liabilities:Payables:Interest:BYD                                   338.569 CNY  ; 利息
+;     Liabilities:Payables:Organization:BYD                               4161.111 CNY  ; 实际金额
+;     Liabilities:Payables:Interest:BYD                                    338.569 CNY  ; 利息
