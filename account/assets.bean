@@ -17,6 +17,8 @@
 2022-01-01 open Assets:Savings:Recharge:TransPort:ShangHai COIN ; 城市交通卡
 2022-01-01 open Assets:Savings:Recharge:Operator:Mobile:C0000 COIN  ; 手机卡
 2022-01-01 open Assets:Savings:Government:Provident:ShangHai COIN  ; 公积金
+2022-01-01 open Assets:Savings:Government:Insurance:Retirement COIN  ; 养老保险
+2022-01-01 open Assets:Savings:Government:Insurance:Medical COIN  ; 医疗保险
 2022-01-01 open Assets:Investment:AliPay:Gold  ; 支付宝黄金
 2022-01-01 open Assets:Investment:Stocks:NongYe:C0000  ; 农行股票账户
 
