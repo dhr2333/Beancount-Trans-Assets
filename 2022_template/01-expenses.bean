@@ -22,3 +22,7 @@
 2022-01-01 * "抖音" "购买券包"
     Liabilities:CreditCard:Bank:ZhongXin:C0000 -200.00 CNY @@ 1.00 TIME
     Assets:Savings:Time:Foot                    1.00 TIME
+
+2022-01-01 # "车贷 [MONTHLY REPEAT 3 TIMES]"  ; 案例
+    Assets:Savings:Bank:GongShang:C5244     -4499.68 CNY
+    Liabilities:Payables:Organization:BYD    4499.68 CNY

@@ -11,5 +11,6 @@
 ;     Expenses:Government:Provident           1,417.00 CNY ; 工资支出
 ;     Expenses:Government:IncomeTax              44.16 CNY ; 个人所得税
 ;     Assets:Savings:Government:Provident:WenZhou 1900.00 COIN
-;     Assets:Receivables:Organization:Wlhiot   6427.61 CNY ; 实发薪资
-;     Assets:Savings:Bank:HuaXia:C0000            0.00 CNY ; 到账薪资
+;     Assets:Receivables:Organization:Wlhiot   6427.61 CNY ; 应发薪资
+;     Assets:Receivables:Organization:Wlhiot   -6427.61 CNY
+;     Assets:Savings:Bank:HuaXia:C0000         6427.61 CNY ; 到账薪资

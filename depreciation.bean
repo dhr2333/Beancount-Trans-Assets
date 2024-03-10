@@ -1,27 +1,2 @@
-; 2024-02-04 * "汽车折旧"
-;   Assets:Depreciation:Car:BYD              -30000.00 CNY
-;   Expenses:Finance:Depreciation            30000.00 CNY
-
-; 2025-02-04 * "汽车折旧"
-;   Assets:Depreciation:Car:BYD              -30000.00 CNY
-;   Expenses:Finance:Depreciation            30000.00 CNY
-
-; 2026-02-04 * "汽车折旧"
-;   Assets:Depreciation:Car:BYD              -30000.00 CNY
-;   Expenses:Finance:Depreciation            30000.00 CNY
-
-; 2027-02-04 * "汽车折旧"
-;   Assets:Depreciation:Car:BYD              -30000.00 CNY
-;   Expenses:Finance:Depreciation            30000.00 CNY
-
-; 2028-02-04 * "汽车折旧"
-;   Assets:Depreciation:Car:BYD              -30000.00 CNY
-;   Expenses:Finance:Depreciation            30000.00 CNY
-
-; 2029-02-04 * "汽车折旧"
-;   Assets:Depreciation:Car:BYD              -30000.00 CNY
-;   Expenses:Finance:Depreciation            30000.00 CNY
-
-; 2030-02-04 * "汽车折旧"
-;   Assets:Depreciation:Car:BYD              -30000.00 CNY
-;   Expenses:Finance:Depreciation            30000.00 CNY
+; 2024-02-04 balance Assets:Depreciation:Car:HaiBao 240094.08 CNY  ; 通过商业险获取折旧金额
+; 2024-02-03 pad Assets:Depreciation:Car:HaiBao Expenses:Finance:Depreciation

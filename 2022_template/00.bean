@@ -35,7 +35,6 @@ include "event.bean"  ; 事件记录
 include "income.bean"  ; 收入(正常来说收入也存放*-expenses.bean文件)
 include "price.bean"  ; 价格变动
 include "invoice.bean"  ; 发票
-include "time.bean"  ;  按次消费
 include "cycle.bean"  ; 周期消费(例如信用卡还款、车贷、话费等)
 include "securities.bean"  ; 投资(正常来说投资也存放*-expenses.bean文件)
 

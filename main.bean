@@ -21,7 +21,7 @@ include "2022_template/00.bean"  ; Beancount-Trans项目会自动include账单
 
 ; 5. 插件管理
 plugin "beancount.plugins.forecast"  ; 分期插件
-; 2023-01-01 # "车贷 [MONTHLY REPEAT 36 TIMES]"  ; 案例
+; 2022-01-01 # "车贷 [MONTHLY REPEAT 36 TIMES]"  ; 案例
 ;     Assets:Savings:Bank:GongShang:C5244     -4499.68 CNY
 ;     Liabilities:Payables:Organization:BYD    4499.68 CNY
 plugin "beancount.plugins.auto_accounts"  ; 根据条目自动添加账户插件
