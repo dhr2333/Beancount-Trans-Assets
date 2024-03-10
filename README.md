@@ -2,7 +2,7 @@
 
 为所有用户提供账本组织结构，目录结构如下：
 
-![2023-12-01_14-31](https://daihaorui.oss-cn-hangzhou.aliyuncs.com/djangoblog/202312011432773.png)
+![2024-03-10_12-52](https://daihaorui.oss-cn-hangzhou.aliyuncs.com/djangoblog/202403101253726.png)
 
 # 账单规范
 

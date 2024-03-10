@@ -33,10 +33,7 @@
 2022-01-01 open Expenses:Home:Single CNY  ; 单次消费（房租/快递）
 
 ; 人情来往
-2022-01-01 open Expenses:Relationship
-2022-01-01 open Expenses:Relationship:Relative CNY  ; 人情礼金
-2022-01-01 open Expenses:Relationship:Absolute CNY  ; 人情赠与
-2022-01-01 open Expenses:Relationship:Relationship CNY  ; 亲友代付
+2022-01-01 open Expenses:Relationship  ; 人情赠予
 
 ; 医疗健康
 2022-01-01 open Expenses:Health  ; 含(门诊/挂号/体检等)
@@ -53,8 +50,8 @@
 ; 金融保险
 2022-01-01 open Expenses:Finance  ; 包含未知项
 2022-01-01 open Expenses:Finance:Commission  CNY  ; 金融中介(保险/手续费/贷款利息等)
-2022-01-01 open Expenses:Finance:Investment CNY  ; 投资理财(基础设施/学习)
-2022-01-01 open Expenses:Finance:Jewel CNY  ; 珠宝首饰(黄金/翡翠)
+2022-01-01 open Expenses:Finance:Insurance  ; 商业保险(车险、医疗险、养老险、育儿险等)
+2022-01-01 open Expenses:Finance:Jewel CNY  ; 珠宝首饰(实物黄金/翡翠等)
 2022-01-01 open Expenses:Finance:Depreciation CNY  ; 大件折旧(CarUsage/HouseUsage)
 
 ; 暂无分类

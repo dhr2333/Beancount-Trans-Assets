@@ -1,10 +1,10 @@
-2022-01-01 open Income:Salary:Wlhiot CNY  ; 工资收益,个人推荐详细记录
-2022-01-01 open Income:Salary:Wlhiot:Subsidy CNY  ; 补贴
-2022-01-01 open Income:Salary:Wlhiot:Subsidy:Meal CNY  ; 餐补
-2022-01-01 open Income:Salary:Wlhiot:Subsidy:Provident COIN  ; 公积金
-2022-01-01 open Income:Salary:Wlhiot:Subsidy:Other CNY  ; 其他补贴
-2022-01-01 open Income:Salary:Wlhiot:Deduct CNY  ; 扣款(迟到、早退、旷工等)
-2022-01-01 open Income:Salary:Wlhiot:Indemnity CNY  ; 赔偿
+2022-01-01 open Income:Salary:GongSiJianCheng CNY  ; 工资收益,个人推荐详细记录
+2022-01-01 open Income:Salary:GongSiJianCheng:Subsidy CNY  ; 补贴
+2022-01-01 open Income:Salary:GongSiJianCheng:Subsidy:Meal CNY  ; 餐补
+2022-01-01 open Income:Salary:GongSiJianCheng:Subsidy:Provident COIN  ; 公积金
+2022-01-01 open Income:Salary:GongSiJianCheng:Subsidy:Other CNY  ; 其他补贴
+2022-01-01 open Income:Salary:GongSiJianCheng:Deduct CNY  ; 扣款(迟到、早退、旷工等)
+2022-01-01 open Income:Salary:GongSiJianCheng:Indemnity CNY  ; 赔偿
 
 2022-01-01 open Income:Sideline CNY  ; 主动收益（副业、兼职等）
 2022-01-01 open Income:Investment CNY  ; 被动收益(股票、黄金、利息、出租等)
