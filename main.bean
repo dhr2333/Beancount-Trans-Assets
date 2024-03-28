@@ -31,7 +31,7 @@ plugin "beancount.plugins.tag_pending"  ; 跟踪未付应付账款或应收账�
 plugin "beancount.plugins.unique_prices"  ; 确保每个日期和基本/报价货币都有一个定义的价格
 ; plugin "beancount.plugins.unrealized" "Assets:Savings:Web:WechatFund"
 
-; 4. 定期折旧
+; 4. 长期记录
 include "depreciation.bean"
 
 ; 5. 交易记录

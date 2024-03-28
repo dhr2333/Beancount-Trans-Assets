@@ -7,6 +7,7 @@
 2022-01-01 open Income:Salary:GongSiJianCheng:Indemnity CNY  ; 赔偿
 
 2022-01-01 open Income:Sideline CNY  ; 主动收益（副业、兼职等）
+2022-01-01 open Income:Business CNY  ; 经营收入
 2022-01-01 open Income:Investment CNY  ; 被动收益(股票、黄金、利息、出租等)
 
 2022-01-01 open Income:Receivables  ; 应收账款（包含红包、优惠券、购物卡等）
