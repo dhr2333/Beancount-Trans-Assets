@@ -14,6 +14,10 @@
 
 # 运行项目
 
+若是通过docker compose运行的Beancount-Trans项目可直接通过 http://127.0.0.1:5000 访问
+
+也可单独运行账单:
+
 ```shell
 pip install beancount
 pip install fava

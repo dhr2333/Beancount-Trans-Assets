@@ -1,5 +1,6 @@
 2022-01-01 open Assets:Savings:Cash CNY  ; 现金
 2022-01-01 open Assets:Savings:Bank:ZhaoShang:C0000 CNY ; 银行卡
+2022-01-01 open Assets:Savings:Bank:ZhaoShang:R0000 CNY ; 数字人民币
 2022-01-01 open Assets:Savings:Bank:JianShe:C0000 CNY
 2022-10-08 close Assets:Savings:Bank:JianShe:C0000  ; 注销
 2022-01-01 open Assets:Savings:Web:AliPay CNY ; 三方支付(支付宝)
