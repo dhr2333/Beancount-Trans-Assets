@@ -1,6 +1,6 @@
-2022-01-01 open Liabilities:CreditCard:Bank:ZhongXin:C0000 CNY  ; 信用卡
-2022-01-01 open Liabilities:CreditCard:Bank:Huaxia:C1234 CNY
-2022-09-03 close Liabilities:CreditCard:Bank:Huaxia:C1234  ; 信用卡注销
+2022-01-01 open Liabilities:CreditCard:Bank:CITIC:C0000 CNY  ; 信用卡
+2022-01-01 open Liabilities:CreditCard:Bank:HXB:C1234 CNY
+2022-09-03 close Liabilities:CreditCard:Bank:HXB:C1234  ; 信用卡注销
 2022-01-01 open Liabilities:CreditCard:Web:DouYin CNY  ; 抖音月付
 2022-01-01 open Liabilities:CreditCard:Web:HuaBei CNY  ; 三方支付
 

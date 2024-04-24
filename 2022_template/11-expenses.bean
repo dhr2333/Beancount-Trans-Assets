@@ -1,9 +1,9 @@
-; 2022-11-01 balance      Liabilities:CreditCard:Bank:ZhongXin:C0000  -5515.51 CNY
-; 2022-10-31 pad          Liabilities:CreditCard:Bank:ZhongXin:C0000 Income:Receivables:RedPacket
-; 2022-11-01 balance      Assets:Savings:Bank:NingBo:C0000              121.99 CNY
-; 2022-10-31 pad          Assets:Savings:Bank:NingBo:C0000 Income:Investment:Interest
-; 2022-11-01 balance      Assets:Savings:Bank:ZhaoShang:C0000           254.56 CNY
-; 2022-10-31 pad          Assets:Savings:Bank:ZhaoShang:C0000 Income:Investment:Interest
+; 2022-11-01 balance      Liabilities:CreditCard:Bank:CITIC:C0000  -5515.51 CNY
+; 2022-10-31 pad          Liabilities:CreditCard:Bank:CITIC:C0000 Income:Receivables:RedPacket
+; 2022-11-01 balance      Assets:Savings:Bank:NBCB:C0000              121.99 CNY
+; 2022-10-31 pad          Assets:Savings:Bank:NBCB:C0000 Income:Investment:Interest
+; 2022-11-01 balance      Assets:Savings:Bank:CMB:C0000           254.56 CNY
+; 2022-10-31 pad          Assets:Savings:Bank:CMB:C0000 Income:Investment:Interest
 ; 2022-11-01 balance      Assets:Savings:Web:WechatFund                  440.66 CNY
 ; 2022-10-31 pad          Assets:Savings:Web:WechatFund Income:Investment:Interest
 ; 2022-11-01 balance      Assets:Savings:Web:AliFund                     43.30 CNY
@@ -23,11 +23,11 @@
     uuid: "2023111622001474561414511558"
     status: "ALiPay - 交易成功"
     Expenses:TransPort:Public +12.35 CNY
-    Liabilities:CreditCard:Bank:ZhongXin:C0000 -12.35 CNY
+    Liabilities:CreditCard:Bank:CITIC:C0000 -12.35 CNY
 
 2022-11-16 * "国家水网" "水费"
     time: "16:36:59"
     uuid: "2023111600003001560090409693"
     status: "ALiPay - 交易成功"
     Expenses:Home:Recharge +6.70 CNY
-    Liabilities:CreditCard:Bank:ZhongXin:C0000 -6.70 CNY
+    Liabilities:CreditCard:Bank:CITIC:C0000 -6.70 CNY

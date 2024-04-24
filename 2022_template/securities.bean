@@ -5,14 +5,14 @@
 ;         账户C 变动情况
  
 ;  2022-09-02 * "A股" "33.29元加仓400股中银证券" ^test ; 买入模板
-;      Assets:Savings:Bank:ZhaoShang:C8837    -13316.00 CNY
-;      Assets:Investment:Stocks:NongYe3908       400.00 A_601696 {{13316.00 CNY}}
+;      Assets:Savings:Bank:CMB:C8837    -13316.00 CNY
+;      Assets:Investment:Stocks:ABC3908       400.00 A_601696 {{13316.00 CNY}}
 ;      Expenses:Invest:Cost                        5.00 CNY
-;      Assets:Savings:Bank:ZhaoShang:C8837        -5.00 CNY
+;      Assets:Savings:Bank:CMB:C8837        -5.00 CNY
  
 ;  2022-09-03 * "A股" "43.29元卖出400股中银证券" ^test ; 卖出模板
-;      Assets:Investment:Stocks:NongYe3908      -400.00 A_601696 {{}} @@ 17316.00 CNY
+;      Assets:Investment:Stocks:ABC3908      -400.00 A_601696 {{}} @@ 17316.00 CNY
 ;      Income:Investment:Interest              -4000.00 CNY
 ;      Expenses:Invest:Cost                        5.00 CNY
-;      Assets:Savings:Bank:ZhaoShang:C8837        -5.00 CNY
-;      Assets:Savings:Bank:HuaXia:C5636        17316.00 CNY
+;      Assets:Savings:Bank:CMB:C8837        -5.00 CNY
+;      Assets:Savings:Bank:HXB:C5636        17316.00 CNY

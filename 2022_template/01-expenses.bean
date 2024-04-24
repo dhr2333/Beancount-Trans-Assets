@@ -1,9 +1,9 @@
-; 2022-01-01 balance      Liabilities:CreditCard:Bank:ZhongXin:C0000   -5515.51 CNY
-; 2021-12-31 pad          Liabilities:CreditCard:Bank:ZhongXin:C0000 Income:Receivables:RedPacket
-; 2022-01-01 balance      Assets:Savings:Bank:NingBo:C0000               121.99 CNY
-; 2021-12-31 pad          Assets:Savings:Bank:NingBo:C0000 Income:Investment:Interest
-; 2022-01-01 balance      Assets:Savings:Bank:ZhaoShang:C0000            254.56 CNY
-; 2021-12-31 pad          Assets:Savings:Bank:ZhaoShang:C0000 Income:Investment:Interest
+; 2022-01-01 balance      Liabilities:CreditCard:Bank:CITIC:C0000   -5515.51 CNY
+; 2021-12-31 pad          Liabilities:CreditCard:Bank:CITIC:C0000 Income:Receivables:RedPacket
+; 2022-01-01 balance      Assets:Savings:Bank:NBCB:C0000               121.99 CNY
+; 2021-12-31 pad          Assets:Savings:Bank:NBCB:C0000 Income:Investment:Interest
+; 2022-01-01 balance      Assets:Savings:Bank:CMB:C0000            254.56 CNY
+; 2021-12-31 pad          Assets:Savings:Bank:CMB:C0000 Income:Investment:Interest
 ; 2022-01-01 balance      Assets:Savings:Web:WechatFund                  440.66 CNY
 ; 2021-12-31 pad          Assets:Savings:Web:WechatFund Income:Investment:Interest
 ; 2022-01-01 balance      Assets:Savings:Web:AliFund                      43.30 CNY
@@ -17,12 +17,12 @@
 ;     uuid: "2023090722001474561442361428"
 ;     status: "ALiPay - 交易成功"
 ;     Expenses:Food:Lunch +13.40 CNY
-;     Liabilities:CreditCard:Bank:ZhongXin:C0000 -13.40 CNY
+;     Liabilities:CreditCard:Bank:CITIC:C0000 -13.40 CNY
 
 2022-01-01 * "抖音" "购买券包"
-    Liabilities:CreditCard:Bank:ZhongXin:C0000 -200.00 CNY @@ 1.00 TIME
+    Liabilities:CreditCard:Bank:CITIC:C0000 -200.00 CNY @@ 1.00 TIME
     Assets:Savings:Time:Foot                    1.00 TIME
 
 2022-01-01 # "车贷 [MONTHLY REPEAT 3 TIMES]"  ; 案例
-    Assets:Savings:Bank:GongShang:C5244     -4499.68 CNY
+    Assets:Savings:Bank:ICBC:C5244     -4499.68 CNY
     Liabilities:Payables:Organization:BYD    4499.68 CNY

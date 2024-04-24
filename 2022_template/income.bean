@@ -1,6 +1,6 @@
 ; 2022-12-15 * "xxx" "工资发放"
 ;     Assets:Receivables:Organization:Wlhiot  -6378.15 CNY
-;     Assets:Savings:Bank:HuaXia:C0000         6378.15 CNY
+;     Assets:Savings:Bank:HXB:C0000         6378.15 CNY
 
 ; 2022-12-15 * "xxx" "2022.11's salary"
 ;     Income:Salary:Wlhiot                    -8000.00 CNY ; 应发薪资
@@ -13,4 +13,4 @@
 ;     Assets:Savings:Government:Provident:WenZhou 1900.00 COIN
 ;     Assets:Receivables:Organization:Wlhiot   6427.61 CNY ; 应发薪资
 ;     Assets:Receivables:Organization:Wlhiot   -6427.61 CNY
-;     Assets:Savings:Bank:HuaXia:C0000         6427.61 CNY ; 到账薪资
+;     Assets:Savings:Bank:HXB:C0000         6427.61 CNY ; 到账薪资

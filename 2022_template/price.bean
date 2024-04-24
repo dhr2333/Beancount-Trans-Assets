@@ -20,5 +20,5 @@
 2023-12-01 price GOLD 450.1005 CNY
 ; 2022年黄金2月份之后猛涨，7月份之后下跌
 
-; 2022-01-01 note Assets:Savings:Bank:ZhaoShang:C8837 "test"
+; 2022-01-01 note Assets:Savings:Bank:CMB:C8837 "test"
 2022-01-01 document Assets:Document "../document/Syntax_Cheat_Sheet.png"

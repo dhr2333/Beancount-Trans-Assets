@@ -6,7 +6,7 @@
 ;     Assets:Savings:Recharge:AliCloud                 0.00 COIN
 ;     Assets:Savings:Recharge:TransPort:ShangHai       0.00 COIN
 ;     Assets:Investment:AliPay:Gold                  5.6411 GOLD {{2000.00 CNY,2021-09-27}}
-;     Assets:Investment:Stocks:NongYe0000              0.00 CNY
+;     Assets:Investment:Stocks:ABC0000              0.00 CNY
 ;     Assets:Savings:Government:Provident:ShangHai     0.00 COIN
 ;     Assets:Receivables:Personal                      0.00 CNY
 ;     Equity:OpenBalance
@@ -16,7 +16,7 @@
 ;     Equity:OpenBalance
 
 ; 2022-08-16 * "负债初始化"
-;     Liabilities:CreditCard:Bank:ZhongXin:C0000  -0.00 CNY
+;     Liabilities:CreditCard:Bank:CITIC:C0000  -0.00 CNY
 ;     Liabilities:CreditCard:Web:HuaBei           -0.00 CNY
 ;     Equity:OpenBalance 
 
@@ -47,13 +47,13 @@ include "securities.bean"  ; 投资(正常来说投资也存放*-expenses.bean�
 ;     Assets:Receivables:Personal     -10.00 CNY
 ;     Assets:Savings:Web:WechatPay               10.00 CNY
 ;     Assets:Savings:Web:WechatPay               10.00 CNY
-;     Liabilities:CreditCard:Bank:ZhongXin:C6428 -30.00 CNY
+;     Liabilities:CreditCard:Bank:CITIC:C6428 -30.00 CNY
 ; poptag #20221001-hangzhou
 
 ; 2022-01-01 * "腾讯" "王者荣耀充值"
 ;     Assets:Savings:Recharge:WangZhe            10.00 TOKEN @@ 1.00 CNY
 ;     Assets:Savings:Web:WechatPay               -1.00 CNY
-;     Liabilities:CreditCard:Bank:ZhongXin:C6428 -1.00 CNY
+;     Liabilities:CreditCard:Bank:CITIC:C6428 -1.00 CNY
 
 ; 2022-01-22 * "腾讯" "王者荣耀支付"
 ;     Expenses:Culture:Entertainment                 6.00 CNY
