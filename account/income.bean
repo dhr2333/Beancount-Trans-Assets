@@ -13,7 +13,6 @@
 2022-01-01 open Income:Receivables  ; 应收账款（包含红包、优惠券、购物卡等）
 2022-01-01 open Income:Receivables:RedPacket  ; 红包
 2022-01-01 open Income:Receivables:Card  ; 购物卡
-2022-01-01 open Income:Relationship:Relative CNY  ; 礼金(结婚时使用该账户，方便后续礼金返还)
 
 2022-01-01 open Income:Government CNY ; 政策收益
 2022-01-01 open Income:Government:Tax CNY ; 退税
