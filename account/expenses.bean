@@ -1,8 +1,8 @@
 ; 餐饮美食
 2022-01-01 open Expenses:Food
-2022-01-01 open Expenses:Food:Breakfast CNY  ; 养生早餐
-2022-01-01 open Expenses:Food:Lunch CNY  ; 活力午餐
-2022-01-01 open Expenses:Food:Dinner CNY  ; 浪漫晚餐
+2022-01-01 open Expenses:Food:Breakfast CNY  ; 早餐
+2022-01-01 open Expenses:Food:Lunch CNY  ; 午餐
+2022-01-01 open Expenses:Food:Dinner CNY  ; 晚餐
 2022-01-01 open Expenses:Food:DrinkFruit CNY ; 饮料水果
 
 ; 购物消费
@@ -47,7 +47,7 @@
 
 ; 金融保险
 2022-01-01 open Expenses:Finance  ; 包含未知项
-2022-01-01 open Expenses:Finance:Commission  CNY  ; 金融中介(保险/手续费/贷款利息等)
+2022-01-01 open Expenses:Finance:Commission  CNY  ; 金融中介(手续费/贷款利息等)
 2022-01-01 open Expenses:Finance:Insurance CNY  ; 商业保险(车险、医疗险、养老险、育儿险等)
 2022-01-01 open Expenses:Finance:Jewel CNY  ; 珠宝首饰(实物黄金/翡翠等)
 2022-01-01 open Expenses:Finance:Depreciation CNY  ; 大件折旧(CarUsage/HouseUsage)
