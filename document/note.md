@@ -1,5 +1,19 @@
 # Doc
 
+> https://www.dhr2333.cn/article/2022/9/10/51.html  # Beancount_01_选型
+> 
+> https://www.dhr2333.cn/article/2022/9/10/52.html  # Beancount_02_借贷记账法
+> 
+> https://www.dhr2333.cn/article/2022/9/10/53.html  # Beancount_03_精益求精
+> 
+> https://www.dhr2333.cn/article/2022/9/10/54.html  # Beancount_04_结余与资产
+> 
+> https://www.dhr2333.cn/article/2022/9/10/55.html  # Beancount_05_项目管理
+> 
+> https://www.dhr2333.cn/article/2022/9/10/56.html  # Beancount_06_善用工具
+
+# 参考资料
+
 > https://byvoid.com/zhs/blog/beancount-bookkeeping-3/  # [推荐]完整项目
 > 
 > https://wzyboy.im/post/1063.html  # Beancount —— 命令行复式簿记
