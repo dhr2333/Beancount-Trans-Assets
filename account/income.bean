@@ -7,19 +7,9 @@
 2022-01-01 open Income:Salary:GongSiJianCheng:Indemnity CNY  ; 赔偿
 
 2022-01-01 open Income:Sideline CNY  ; 主动收益（副业、兼职等）
-2022-01-01 open Income:Business CNY  ; 经营收入
 2022-01-01 open Income:Investment CNY  ; 被动收益(股票、黄金、利息、出租等)
-
-2022-01-01 open Income:Receivables  ; 应收账款（包含红包、优惠券、购物卡等）
-2022-01-01 open Income:Receivables:RedPacket  ; 红包
-2022-01-01 open Income:Receivables:Card  ; 购物卡
-
-2022-01-01 open Income:Government CNY ; 政策收益
-2022-01-01 open Income:Government:Tax CNY ; 退税
-2022-01-01 open Income:Government:Subsidy CNY  ; 补贴，包含住房补贴、购车补贴、失业补贴等
-; 2022-01-01 open Income:Government:Subsidy:Work CNY ; 政府补贴
-; 2022-01-01 open Income:Government:Subsidy:Rent CNY ; 租房补贴
-; 2022-01-01 open Income:Government:Subsidy:Car CNY ; 购车补贴
-; 2022-01-01 open Income:Government:Subsidy:Unemployment CNY ; 失业补贴
-
+2022-01-01 open Income:Government CNY ; 政策收益（住房补贴、购车补贴、失业补贴等）
+2022-01-01 open Income:Relationship  ; 人情（收受的礼金）
+2022-01-01 open Income:Discounts  ; 优惠（付款时的红包抵扣商家活动等）
+2022-01-01 open Income:RedPacket  ; 红包（微信支付宝抢到的红包及赠送的现金红包）
 2022-01-01 open Income:Other  ; 未分类

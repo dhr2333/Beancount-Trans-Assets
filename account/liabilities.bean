@@ -6,5 +6,4 @@
 
 2022-01-01 open Liabilities:Payables:Personal CNY  ; 对XX的债务(个人)
 2022-01-01 open Liabilities:Payables:Organization CNY  ; 对XX的债务(机构)
-2022-01-01 open Liabilities:Payables:Relationship  ; 收到的需返还的礼金(例如结婚、生娃、满月、葬礼等)
 2022-01-01 open Liabilities:Payables:Delay CNY  ; 应付但未付(例如区划停车只有人员检查的时候才会把之前停车的费用一并缴纳)

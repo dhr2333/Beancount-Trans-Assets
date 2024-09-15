@@ -11,7 +11,7 @@
 ; 应收款项
 2022-01-01 open Assets:Receivables:Organization CNY  ; 组织
 2022-01-01 open Assets:Receivables:Personal CNY  ; 个人 
-2022-01-01 open Assets:Receivables:Relationship  ; 给出的可返还的礼金(例如结婚、生娃、满月、葬礼等)
+; 2022-01-01 open Assets:Receivables:Relationship  ; 给出的可返还的礼金(例如结婚、生娃、满月、葬礼等)
 2022-01-01 open Assets:Receivables:Pledge CNY  ; 押金
 
 ; 代币(与人民币1:1兑换)
