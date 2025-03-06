@@ -1,5 +1,5 @@
 ; 2022-11-01 balance      Liabilities:CreditCard:Bank:CITIC:C0000  -5515.51 CNY
-; 2022-10-31 pad          Liabilities:CreditCard:Bank:CITIC:C0000 Income:Receivables:RedPacket
+; 2022-10-31 pad          Liabilities:CreditCard:Bank:CITIC:C0000 Income:RedPacket:Organization
 ; 2022-11-01 balance      Assets:Savings:Bank:NBCB:C0000              121.99 CNY
 ; 2022-10-31 pad          Assets:Savings:Bank:NBCB:C0000 Income:Investment:Interest
 ; 2022-11-01 balance      Assets:Savings:Bank:CMB:C0000           254.56 CNY
@@ -12,22 +12,16 @@
 ; 2023-11-01 balance      Assets:Savings:Recharge:NiangNiangDaRen       112.06 COIN
 ; 2023-11-01 balance      Assets:Savings:Recharge:LaoPoDaRen            112.06 COIN
 
-2022-11-01 close Assets:Savings:Time:Foot
-
-2022-11-01 * "抖音" "消费"
-    Expenses:Food:Dinner                      200.00 CNY @@ 1.00 TIME
-    Assets:Savings:Time:Foot                   -1.00 TIME    
-
 2022-11-16 * "中国建设银行股份有限公司湖南省分行" "ETC通行扣费"
     time: "18:01:01"
     uuid: "2023111622001474561414511558"
     status: "ALiPay - 交易成功"
-    Expenses:TransPort:Public +12.35 CNY
-    Liabilities:CreditCard:Bank:CITIC:C0000 -12.35 CNY
+    Expenses:TransPort:Public                +12.35 CNY
+    Liabilities:CreditCard:Bank:CITIC:C0000  -12.35 CNY
 
 2022-11-16 * "国家水网" "水费"
     time: "16:36:59"
     uuid: "2023111600003001560090409693"
     status: "ALiPay - 交易成功"
-    Expenses:Home:Recharge +6.70 CNY
-    Liabilities:CreditCard:Bank:CITIC:C0000 -6.70 CNY
+    Expenses:Home:Recharge                    +6.70 CNY
+    Liabilities:CreditCard:Bank:CITIC:C0000   -6.70 CNY

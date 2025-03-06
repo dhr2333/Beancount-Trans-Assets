@@ -1,2 +1,4 @@
-; 2024-02-04 balance Assets:Depreciation:Car:HaiBao 240094.08 CNY  ; 通过商业险获取折旧金额
+; 2024-02-04 balance Assets:Depreciation:Car:HaiBao 240094.08 CNY  ; 通过商业险保单获取折旧金额
 ; 2024-02-03 pad Assets:Depreciation:Car:HaiBao Expenses:Finance:Depreciation
+; 2025-02-04 balance Assets:Depreciation:Car:BYD  226533.60 CNY  ; 通过商业险保单获取折旧金额
+; 2025-02-03 pad Assets:Depreciation:Car:BYD Expenses:Finance:Depreciation

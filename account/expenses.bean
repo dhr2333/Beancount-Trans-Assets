@@ -21,6 +21,7 @@
 
 ; 文化休闲
 2022-01-01 open Expenses:Culture  ; 含(花/酒店)
+2022-01-01 open Expenses:Culture:Education CNY  ; 学习资料
 2022-01-01 open Expenses:Culture:Entertainment  CNY,TOKEN  ; 影音娱乐
 2022-01-01 open Expenses:Culture:Subscription CNY,USA ; 订阅服务(网易云音乐/华为/有道云笔记)
 
@@ -34,7 +35,8 @@
 2022-01-01 open Expenses:Relationship  ; 人情赠予
 
 ; 医疗健康
-2022-01-01 open Expenses:Health  ; 含(门诊/挂号/体检等)
+2022-01-01 open Expenses:Health
+2022-01-01 open Expenses:Health:Outpatient  ; 含（门诊/挂号/体检）
 2022-01-01 open Expenses:Health:Medical CNY ; 医疗药品
 2022-01-01 open Expenses:Health:Equipment CNY ; 医疗设备
 
@@ -42,14 +44,12 @@
 2022-01-01 open Expenses:Government
 2022-01-01 open Expenses:Government:Fine  ; 罚款
 2022-01-01 open Expenses:Government:Insurance ; 社会保险
-2022-01-01 open Expenses:Government:Provident ; 住房公积金
 2022-01-01 open Expenses:Government:IncomeTax ; 个人所得税
 
 ; 金融保险
 2022-01-01 open Expenses:Finance  ; 包含未知项
 2022-01-01 open Expenses:Finance:Commission  CNY  ; 金融中介(手续费/贷款利息等)
 2022-01-01 open Expenses:Finance:Insurance CNY  ; 商业保险(车险、医疗险、养老险、育儿险等)
-2022-01-01 open Expenses:Finance:Jewel CNY  ; 珠宝首饰(实物黄金/翡翠等)
 2022-01-01 open Expenses:Finance:Depreciation CNY  ; 大件折旧(CarUsage/HouseUsage)
 
 ; 暂无分类

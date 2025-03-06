@@ -1,5 +1,5 @@
 ; 2022-09-01 balance      Liabilities:CreditCard:Bank:CITIC:C0000  -5515.51 CNY
-; 2022-08-31 pad          Liabilities:CreditCard:Bank:CITIC:C0000 Income:Receivables:RedPacket
+; 2022-08-31 pad          Liabilities:CreditCard:Bank:CITIC:C0000 Income:RedPacket:Organization
 ; 2022-09-01 balance      Assets:Savings:Bank:NBCB:C0000              121.99 CNY
 ; 2022-08-31 pad          Assets:Savings:Bank:NBCB:C0000 Income:Investment:Interest
 ; 2022-09-01 balance      Assets:Savings:Bank:CMB:C0000           254.56 CNY

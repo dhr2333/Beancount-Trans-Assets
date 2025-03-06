@@ -3,8 +3,12 @@ option "title" "xxx的账本"
 option "operating_currency" "CNY"
 option "operating_currency" "COIN"
 option "operating_currency" "TIME"
-2022-01-01 custom "fava-option" "language" "zh" 
-2022-01-01 custom "fava-option" "auto-reload" "true"
+
+2022-01-01 custom "fava-option" "language" "zh_CN"
+2022-01-01 custom "fava-option" "auto-reload" "true"  ; 设置为 true 可使 Fava 在检测到文件更改时自动重新加载页面
+2022-01-01 custom "fava-option" "default-page" "balance_sheet/"  ; 访问 Fava 时要重定向到的页面
+2022-01-01 custom "fava-option" "indent" "2"  ; 缩进的数字空格
+2022-01-01 custom "fava-option" "sidebar-show-queries" "7"  ; 侧边栏中链接的最大查询数
 
 ; 2. 账户设置
 include "account/assets.bean"
@@ -13,15 +17,15 @@ include "account/expenses.bean"
 include "account/income.bean"
 include "account/liabilities.bean"
 
-; 3. 插件管理
-plugin "beancount.plugins.forecast"  ; 分期插件
+; 3. 插件管理(v2)
+; plugin "beancount.plugins.forecast"  ; 分期插件
 ; 2022-01-01 # "车贷 [MONTHLY REPEAT 36 TIMES]"  ; 案例
 ;     Assets:Savings:Bank:ICBC:C5244     -4499.68 CNY
 ;     Liabilities:Payables:Organization:BYD    4499.68 CNY
 plugin "beancount.plugins.auto_accounts"  ; 根据条目自动添加账户插件
-; plugin "beancount.plugins.noduplicates"  ; 验证不存在重复交易
+plugin "beancount.plugins.noduplicates"  ; 验证不存在重复交易
 ; plugin "beancount.plugins.nounused"  ; 验证没有未使用的帐户
-plugin "beancount.plugins.tag_pending"  ; 跟踪未付应付账款或应收账款，在Fava中搜索"#PENDING"
+; plugin "beancount.plugins.tag_pending"  ; 跟踪未付应付账款或应收账款，在Fava中搜索"#PENDING"
 ; 2013-03-28 * "Bill for datacenter electricity"  ^invoice-27a30ab61191
 ;   Expenses:Electricity                        450.82 USD
 ;   Liabilities:AccountsPayable
@@ -31,8 +35,12 @@ plugin "beancount.plugins.tag_pending"  ; 跟踪未付应付账款或应收账�
 plugin "beancount.plugins.unique_prices"  ; 确保每个日期和基本/报价货币都有一个定义的价格
 ; plugin "beancount.plugins.unrealized" "Assets:Savings:Web:WechatFund"
 
+; 3. 插件管理(v3)
+; plugin "beancount.plugins.pedantic"  ; 使用所有可用插件，参考 https://beancount.github.io/docs/api_reference/beancount.plugins.html#beancount.plugins.pedantic
+
 ; 4. 长期记录
 include "depreciation.bean"
 
 ; 5. 交易记录
 include "2022_template/00.bean"  ; Beancount-Trans项目会自动include账单
+; include "2023/00.bean"

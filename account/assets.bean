@@ -30,3 +30,6 @@
 
 ; 点券(与人民币非1:1兑换)
 2022-01-01 open Assets:Savings:Recharge:WangZhe TOKEN  ; 王者荣耀点券
+
+; 建议由 main.bean 中的 beancount.plugins.auto_accounts 插件自动创建
+2022-01-01 open  Assets:Savings:Time:Foot

@@ -31,12 +31,15 @@ include "09-expenses.bean"
 include "10-expenses.bean"
 include "11-expenses.bean"
 include "12-expenses.bean"
+include "budget.bean"  ; 预算 
+include "cycle.bean"  ; 周期/分期
 include "event.bean"  ; 事件记录
 include "income.bean"  ; 收入(正常来说收入也存放*-expenses.bean文件)
-include "price.bean"  ; 价格变动
 include "invoice.bean"  ; 发票
-include "cycle.bean"  ; 周期消费(例如信用卡还款、车贷、话费等)
+include "price.bean"  ; 价格变动
 include "securities.bean"  ; 投资(正常来说投资也存放*-expenses.bean文件)
+include "time.bean"  ;  按次消费(通常是直接用券支付没有账单可以体现)
+
 
 ; pushtag #20221001-hangzhou  ; 所有在pushtag和poptag之间的记录都会被打上标签
 ; 2022-01-01 * "代付模板"
