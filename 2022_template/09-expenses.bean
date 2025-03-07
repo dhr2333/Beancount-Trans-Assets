@@ -11,3 +11,11 @@
 ; 2023-09-01 balance      Assets:Savings:Recharge:LiangLiangJiaDao       81.50 COIN
 ; 2023-09-01 balance      Assets:Savings:Recharge:NiangNiangDaRen       112.06 COIN
 ; 2023-09-01 balance      Assets:Savings:Recharge:LaoPoDaRen            112.06 COIN
+
+2022-09-30 * "中国航空" "垫付机票" ^201909-out
+    Liabilities:CreditCard:Bank:CITIC:C0000  -1000.00 CNY
+    Assets:Receivables:Organization           1000.00 CNY
+
+2022-09-30 * "滴滴出行" "垫付车票" ^201909-out
+    Liabilities:CreditCard:Bank:CITIC:C0000   -200.00 CNY
+    Assets:Receivables:Organization            200.00 CNY

@@ -11,3 +11,7 @@
 ; 2023-10-01 balance      Assets:Savings:Recharge:LiangLiangJiaDao       81.50 COIN
 ; 2023-10-01 balance      Assets:Savings:Recharge:NiangNiangDaRen       112.06 COIN
 ; 2023-10-01 balance      Assets:Savings:Recharge:LaoPoDaRen            112.06 COIN
+
+2022-10-30 * "xxx公司" "报销到账" ^201909-out
+    Liabilities:CreditCard:Bank:CITIC:C0000   1200.00 CNY
+    Assets:Receivables:Organization          -1200.00 CNY

@@ -19,7 +19,7 @@
     Expenses:TransPort:Public                +12.35 CNY
     Liabilities:CreditCard:Bank:CITIC:C0000  -12.35 CNY
 
-2022-11-16 * "国家水网" "水费"
+2022-11-16 * "国家水网" "水费" #Home
     time: "16:36:59"
     uuid: "2023111600003001560090409693"
     status: "ALiPay - 交易成功"

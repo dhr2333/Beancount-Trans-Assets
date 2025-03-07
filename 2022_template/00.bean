@@ -35,7 +35,6 @@ include "budget.bean"  ; 预算
 include "cycle.bean"  ; 周期/分期
 include "event.bean"  ; 事件记录
 include "income.bean"  ; 收入(正常来说收入也存放*-expenses.bean文件)
-include "invoice.bean"  ; 发票
 include "note.bean"  ; 注释
 include "price.bean"  ; 价格变动
 include "query.bean"  ; 查询
