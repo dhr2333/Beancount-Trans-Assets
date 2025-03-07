@@ -3,6 +3,7 @@ option "title" "xxx的账本"
 option "operating_currency" "CNY"
 option "operating_currency" "COIN"
 option "operating_currency" "TIME"
+option "documents" "document"  ; 文件上传保存至该目录
 
 2022-01-01 custom "fava-option" "language" "zh_CN"
 2022-01-01 custom "fava-option" "auto-reload" "true"  ; 设置为 true 可使 Fava 在检测到文件更改时自动重新加载页面

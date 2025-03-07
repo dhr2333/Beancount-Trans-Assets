@@ -33,3 +33,7 @@
 
 ; 建议由 main.bean 中的 beancount.plugins.auto_accounts 插件自动创建
 2022-01-01 open  Assets:Savings:Time:Foot
+
+; commodity 声明
+2022-01-01 commodity CAR
+    name: "比亚迪海豹2022款700KM长续航后驱版"
