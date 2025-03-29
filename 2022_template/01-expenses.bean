@@ -22,3 +22,53 @@
 2022-01-01 * "抖音" "购买券包"
     Liabilities:CreditCard:Bank:CITIC:C0000  -200.00 CNY @@ 1.00 TIME
     Assets:Savings:Time:Foot                    1.00 TIME
+
+2022-01-30 * "中国航空" "垫付机票" ^201909-out
+    Liabilities:CreditCard:Bank:CITIC:C0000  -1000.00 CNY
+    Assets:Receivables:Organization           1000.00 CNY
+
+2022-01-30 * "滴滴出行" "垫付车票" ^201909-out
+    Liabilities:CreditCard:Bank:CITIC:C0000   -200.00 CNY
+    Assets:Receivables:Organization            200.00 CNY
+
+2022-01-16 * "中国建设银行股份有限公司湖南省分行" "ETC通行扣费"
+    time: "18:01:01"
+    uuid: "2023111622001474561414511558"
+    status: "ALiPay - 交易成功"
+    Expenses:TransPort:Public                +12.35 CNY
+    Liabilities:CreditCard:Bank:CITIC:C0000  -12.35 CNY
+
+2022-01-16 * "国家水网" "水费" #Home
+    time: "16:36:59"
+    uuid: "2023111600003001560090409693"
+    status: "ALiPay - 交易成功"
+    Expenses:Home:Recharge                    +6.70 CNY
+    Liabilities:CreditCard:Bank:CITIC:C0000   -6.70 CNY
+
+2022-01-01 * "公牛旗舰店" "【38价】公牛轨道插座排插可移动轨道插座导轨厨房客厅卧室无线排插厨房" #DECORATION
+    time: "21:08:08"
+    uuid: "2024030122001174561405075488"
+    status: "ALiPay - 交易成功"
+    Expenses:Shopping:Digital                 444.00 CNY
+    Liabilities:Payables                     -444.00 CNY
+
+2022-02-01 * "公牛旗舰店" "【38价】公牛轨道插座排插可移动轨道插座导轨厨房客厅卧室无线排插厨房" #DECORATION
+    time: "21:08:08"
+    uuid: "2024030122001174561405075488"
+    status: "ALiPay - 交易成功"
+    Liabilities:Payables                      148.00 CNY
+    Liabilities:CreditCard:Bank:CITIC:C6428  -148.00 CNY
+
+2022-03-01 * "公牛旗舰店" "【38价】公牛轨道插座排插可移动轨道插座导轨厨房客厅卧室无线排插厨房" #DECORATION
+    time: "21:08:08"
+    uuid: "2024030122001174561405075488"
+    status: "ALiPay - 交易成功"
+    Liabilities:Payables                      148.00 CNY
+    Liabilities:CreditCard:Bank:CITIC:C6428  -148.00 CNY
+
+2022-04-01 * "公牛旗舰店" "【38价】公牛轨道插座排插可移动轨道插座导轨厨房客厅卧室无线排插厨房" #DECORATION
+    time: "21:08:08"
+    uuid: "2024030122001174561405075488"
+    status: "ALiPay - 交易成功"
+    Liabilities:Payables                      148.00 CNY
+    Liabilities:CreditCard:Bank:CITIC:C6428  -148.00 CNY

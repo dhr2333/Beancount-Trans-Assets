@@ -11,17 +11,3 @@
 ; 2023-11-01 balance      Assets:Savings:Recharge:LiangLiangJiaDao       81.50 COIN
 ; 2023-11-01 balance      Assets:Savings:Recharge:NiangNiangDaRen       112.06 COIN
 ; 2023-11-01 balance      Assets:Savings:Recharge:LaoPoDaRen            112.06 COIN
-
-2022-11-16 * "中国建设银行股份有限公司湖南省分行" "ETC通行扣费"
-    time: "18:01:01"
-    uuid: "2023111622001474561414511558"
-    status: "ALiPay - 交易成功"
-    Expenses:TransPort:Public                +12.35 CNY
-    Liabilities:CreditCard:Bank:CITIC:C0000  -12.35 CNY
-
-2022-11-16 * "国家水网" "水费" #Home
-    time: "16:36:59"
-    uuid: "2023111600003001560090409693"
-    status: "ALiPay - 交易成功"
-    Expenses:Home:Recharge                    +6.70 CNY
-    Liabilities:CreditCard:Bank:CITIC:C0000   -6.70 CNY
