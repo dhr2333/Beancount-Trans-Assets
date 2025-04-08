@@ -2,7 +2,7 @@
 2022-01-01 open Liabilities:CreditCard:Bank:HXB:C1234 CNY
 2022-09-03 close Liabilities:CreditCard:Bank:HXB:C1234  ; 信用卡注销
 2022-01-01 open Liabilities:CreditCard:Web:DouYin CNY  ; 抖音月付
-2022-01-01 open Liabilities:CreditCard:Web:HuaBei CNY  ; 三方支付
+2022-01-01 open Liabilities:CreditCard:Web:AliPay CNY  ; 三方支付(支付宝，含花呗、借呗、备用金等)
 
 2022-01-01 open Liabilities:Payables:Personal CNY  ; 对XX的债务(个人)
 2022-01-01 open Liabilities:Payables:Organization CNY  ; 对XX的债务(机构)
