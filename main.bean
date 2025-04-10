@@ -24,7 +24,7 @@ include "account/liabilities.bean"
 ;     Assets:Savings:Bank:ICBC:C5244     -4499.68 CNY
 ;     Liabilities:Payables:Organization:BYD    4499.68 CNY
 plugin "beancount.plugins.auto_accounts"  ; 根据条目自动添加账户插件
-plugin "beancount.plugins.noduplicates"  ; 验证不存在重复交易
+; plugin "beancount.plugins.noduplicates"  ; 验证不存在重复交易
 ; plugin "beancount.plugins.nounused"  ; 验证没有未使用的帐户
 ; plugin "beancount.plugins.tag_pending"  ; 跟踪未付应付账款或应收账款，在Fava中搜索"#PENDING"
 ; 2013-03-28 * "Bill for datacenter electricity"  ^invoice-27a30ab61191
