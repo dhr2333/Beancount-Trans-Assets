@@ -1,12 +1,15 @@
-FROM python:3.13.2
+FROM python:3.12-slim AS builder
 
-ENV BEANCOUNT_FILE ""
-ENV FAVA_OPTIONS "-H 0.0.0.0 -p 5000"
-
+WORKDIR /app
 COPY requirements.txt .
+RUN python -m venv /opt/venv && \
+    /opt/venv/bin/pip install --no-cache-dir --upgrade pip && \
+    /opt/venv/bin/pip install --no-cache-dir -r requirements.txt
 
-RUN pip install -r requirements.txt
-
+FROM python:3.12-slim
+ENV BEANCOUNT_FILE=""
+ENV FAVA_OPTIONS="-H 0.0.0.0 -p 5000"
+ENV PATH="/opt/venv/bin:$PATH"
+COPY --from=builder /opt/venv /opt/venv
 EXPOSE 5000
-
-CMD fava $FAVA_OPTIONS $BEANCOUNT_FILE
+CMD ["sh", "-c", "fava ${FAVA_OPTIONS} ${BEANCOUNT_FILE}"]
