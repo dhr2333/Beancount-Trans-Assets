@@ -1,0 +1,12 @@
+version: "3"
+services:
+  beancount-trans-assets:
+    image: dhr2333/beancount-trans-assets:latest
+    container_name: beancount-trans-assets
+    restart: always
+    ports:
+      - "5003:5000"
+    volumes:
+      - ${PWD}:/Assets
+    environment:
+      - BEANCOUNT_FILE=/Assets/main.bean
