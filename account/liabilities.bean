@@ -1,9 +1,9 @@
-2022-01-01 open Liabilities:CreditCard:Bank:CITIC:C0000 CNY  ; 信用卡
-2022-01-01 open Liabilities:CreditCard:Bank:HXB:C1234 CNY
+2010-01-01 open Liabilities:CreditCard:Bank:CITIC:C0000 CNY  ; 信用卡
+2010-01-01 open Liabilities:CreditCard:Bank:HXB:C1234 CNY
 2022-09-03 close Liabilities:CreditCard:Bank:HXB:C1234  ; 信用卡注销
-2022-01-01 open Liabilities:CreditCard:Web:DouYin CNY  ; 抖音月付
-2022-01-01 open Liabilities:CreditCard:Web:AliPay CNY  ; 三方支付(支付宝，含花呗、借呗、备用金等)
+2010-01-01 open Liabilities:CreditCard:Web:DouYin CNY  ; 抖音月付
+2010-01-01 open Liabilities:CreditCard:Web:AliPay CNY  ; 三方支付(支付宝，含花呗、借呗、备用金等)
 
-2022-01-01 open Liabilities:Payables:Personal CNY  ; 对XX的债务(个人)
-2022-01-01 open Liabilities:Payables:Organization CNY  ; 对XX的债务(机构)
-2022-01-01 open Liabilities:Payables:Delay CNY  ; 应付但未付(例如区划停车只有人员检查的时候才会把之前停车的费用一并缴纳)
+2010-01-01 open Liabilities:Payables:Personal CNY  ; 对XX的债务(个人)
+2010-01-01 open Liabilities:Payables:Organization CNY  ; 对XX的债务(机构)
+2010-01-01 open Liabilities:Payables:Delay CNY  ; 应付但未付(例如区划停车只有人员检查的时候才会把之前停车的费用一并缴纳)

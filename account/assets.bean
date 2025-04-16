@@ -1,39 +1,39 @@
-2022-01-01 open Assets:Savings:Cash CNY  ; 现金
-2022-01-01 open Assets:Savings:Bank:CMB:C0000 CNY ; 招商银行储蓄卡
-2022-01-01 open Assets:Savings:Bank:CMB:R0000 CNY ; 招商银行数字人民币
-2022-01-01 open Assets:Savings:Bank:CCB:C0000 CNY  ; 建设银行
+2010-01-01 open Assets:Savings:Cash CNY  ; 现金
+2010-01-01 open Assets:Savings:Bank:CMB:C0000 CNY ; 招商银行储蓄卡
+2010-01-01 open Assets:Savings:Bank:CMB:R0000 CNY ; 招商银行数字人民币
+2010-01-01 open Assets:Savings:Bank:CCB:C0000 CNY  ; 建设银行
 2022-10-08 close Assets:Savings:Bank:CCB:C0000  ; 注销
-2022-01-01 open Assets:Savings:Web:AliPay CNY ; 三方支付(支付宝)
-2022-01-01 open Assets:Savings:Web:AliFund CNY  ; 余额宝
-2022-01-01 open Assets:Savings:Web:WechatPay CNY  ; 微信支付
-2022-01-01 open Assets:Savings:Web:WechatFund CNY  ; 零钱通
+2010-01-01 open Assets:Savings:Web:AliPay CNY ; 三方支付(支付宝)
+2010-01-01 open Assets:Savings:Web:AliFund CNY  ; 余额宝
+2010-01-01 open Assets:Savings:Web:WechatPay CNY  ; 微信支付
+2010-01-01 open Assets:Savings:Web:WechatFund CNY  ; 零钱通
 
 ; 应收款项
-2022-01-01 open Assets:Receivables:Organization CNY  ; 组织
-2022-01-01 open Assets:Receivables:Personal CNY  ; 个人 
-; 2022-01-01 open Assets:Receivables:Relationship  ; 给出的可返还的礼金(例如结婚、生娃、满月、葬礼等)
-2022-01-01 open Assets:Receivables:Pledge CNY  ; 押金
+2010-01-01 open Assets:Receivables:Organization CNY  ; 组织
+2010-01-01 open Assets:Receivables:Personal CNY  ; 个人
+; 2010-01-01 open Assets:Receivables:Relationship  ; 给出的可返还的礼金(例如结婚、生娃、满月、葬礼等)
+2010-01-01 open Assets:Receivables:Pledge CNY  ; 押金
 
 ; 代币(与人民币1:1兑换)
-2022-01-01 open Assets:Savings:Recharge:AliCloud COIN  ; 阿里云
-2022-01-01 open Assets:Savings:Recharge:TransPort:ShangHai COIN ; 城市交通卡
-2022-01-01 open Assets:Savings:Recharge:Operator:Mobile:C0000 COIN  ; 手机卡
-2022-01-01 open Assets:Savings:Government:Provident:ShangHai COIN  ; 公积金
-2022-01-01 open Assets:Savings:Government:Insurance:Retirement COIN  ; 养老保险
-2022-01-01 open Assets:Savings:Government:Insurance:Medical COIN  ; 医疗保险
-2022-01-01 open Assets:Investment:AliPay:Gold  ; 支付宝黄金
-2022-01-01 open Assets:Investment:Stocks:ABC:C0000  ; 农业银行股票账户
+2010-01-01 open Assets:Savings:Recharge:AliCloud COIN  ; 阿里云
+2010-01-01 open Assets:Savings:Recharge:TransPort:ShangHai COIN ; 城市交通卡
+2010-01-01 open Assets:Savings:Recharge:Operator:Mobile:C0000 COIN  ; 手机卡
+2010-01-01 open Assets:Savings:Government:Provident:ShangHai COIN  ; 公积金
+2010-01-01 open Assets:Savings:Government:Insurance:Retirement COIN  ; 养老保险
+2010-01-01 open Assets:Savings:Government:Insurance:Medical COIN  ; 医疗保险
+2010-01-01 open Assets:Investment:AliPay:Gold  ; 支付宝黄金
+2010-01-01 open Assets:Investment:Stocks:ABC:C0000  ; 农业银行股票账户
 
 ; 特殊账户
-2022-01-01 open Assets:Document  ; 文档记录
-2022-01-01 open Assets:Other  ; 未分类
+2010-01-01 open Assets:Document  ; 文档记录
+2010-01-01 open Assets:Other  ; 未分类
 
 ; 点券(与人民币非1:1兑换)
-2022-01-01 open Assets:Savings:Recharge:WangZhe TOKEN  ; 王者荣耀点券
+2010-01-01 open Assets:Savings:Recharge:WangZhe TOKEN  ; 王者荣耀点券
 
 ; 建议由 main.bean 中的 beancount.plugins.auto_accounts 插件自动创建
-2022-01-01 open  Assets:Savings:Time:Foot
+2010-01-01 open  Assets:Savings:Time:Foot
 
 ; commodity 声明
-2022-01-01 commodity CAR
+2010-01-01 commodity CAR
     name: "比亚迪海豹2022款700KM长续航后驱版"

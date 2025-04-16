@@ -1,56 +1,62 @@
 ; 餐饮美食
-2022-01-01 open Expenses:Food
-2022-01-01 open Expenses:Food:Breakfast CNY  ; 早餐
-2022-01-01 open Expenses:Food:Lunch CNY  ; 午餐
-2022-01-01 open Expenses:Food:Dinner CNY  ; 晚餐
-2022-01-01 open Expenses:Food:DrinkFruit CNY ; 饮料水果
+2010-01-01 open Expenses:Food
+2010-01-01 open Expenses:Food:Breakfast CNY  ; 早餐
+2010-01-01 open Expenses:Food:Lunch CNY  ; 午餐
+2010-01-01 open Expenses:Food:Dinner CNY  ; 晚餐
+2010-01-01 open Expenses:Food:DrinkFruit CNY ; 饮料水果
 
 ; 购物消费
-2022-01-01 open Expenses:Shopping
-2022-01-01 open Expenses:Shopping:Clothing CNY ; 服饰鞋包
-2022-01-01 open Expenses:Shopping:Digital CNY ; 数码电器
-2022-01-01 open Expenses:Shopping:Makeup CNY ; 美容美发
-2022-01-01 open Expenses:Shopping:Parent CNY ; 母婴亲子
+2010-01-01 open Expenses:Shopping
+2010-01-01 open Expenses:Shopping:Clothing CNY ; 服饰鞋包
+2010-01-01 open Expenses:Shopping:Digital CNY ; 数码电器
+2010-01-01 open Expenses:Shopping:Makeup CNY ; 个人护理(含美容美发)
+2010-01-01 open Expenses:Shopping:Parent CNY ; 母婴亲子
+2010-01-01 open Expenses:Shopping:Daily CNY  ; 日用百货(家庭共用消耗品)
 
 ; 交通运输
-2022-01-01 open Expenses:TransPort
-2022-01-01 open Expenses:TransPort:Public CNY ; 公共交通(飞机/高铁/打车/公交/地铁/高速等)
-2022-01-01 open Expenses:TransPort:Private CNY ;养车爱车
-2022-01-01 open Expenses:TransPort:Private:Fuel CNY  ; 燃料费，包含汽油及电费
-2022-01-01 open Expenses:TransPort:Private:Park CNY ; 停车费
+2010-01-01 open Expenses:TransPort
+2010-01-01 open Expenses:TransPort:Public CNY ; 公共交通(飞机/高铁/打车/公交/地铁/高速等)
+2010-01-01 open Expenses:TransPort:Private CNY ; 养车爱车
+2010-01-01 open Expenses:TransPort:Fuel CNY  ; 燃料费，包含汽油及电费
+2010-01-01 open Expenses:TransPort:Park CNY ; 停车费
 
 ; 文化休闲
-2022-01-01 open Expenses:Culture  ; 含(花/酒店)
-2022-01-01 open Expenses:Culture:Education CNY  ; 学习资料
-2022-01-01 open Expenses:Culture:Entertainment  CNY  ; 影音娱乐
-2022-01-01 open Expenses:Culture:Subscription CNY,USD ; 订阅服务(网易云音乐/华为/有道云笔记)
+2010-01-01 open Expenses:Culture
+2010-01-01 open Expenses:Culture:Travel CNY  ; 酒店旅游(门票、酒店)
+2010-01-01 open Expenses:Culture:Education CNY  ; 教育培训
+2010-01-01 open Expenses:Culture:Entertainment  CNY  ; 影音娱乐
+2010-01-01 open Expenses:Culture:Subscription CNY,USD ; 订阅服务(网易云音乐/华为/有道云笔记)
 
 ; 居家生活
-2022-01-01 open Expenses:Home  ; 含（房租/快递）
-2022-01-01 open Expenses:Home:Recharge CNY  ; 充值缴费(水电燃气/物业/话费等)
-2022-01-01 open Expenses:Home:Decoration CNY  ; 家居家装
-2022-01-01 open Expenses:Home:Daily CNY  ; 日用百货
-
-; 人情来往
-2022-01-01 open Expenses:Relationship CNY  ; 人情赠予
+2010-01-01 open Expenses:Home  ; 含（房租/快递）
+2010-01-01 open Expenses:Home:Recharge CNY  ; 充值缴费(水电燃气/物业/话费等)
+2010-01-01 open Expenses:Home:Decoration CNY  ; 家居家装,并添加#DECORATION标签
 
 ; 医疗健康
-2022-01-01 open Expenses:Health
-2022-01-01 open Expenses:Health:Outpatient CNY  ; 含（门诊/挂号/体检）
-2022-01-01 open Expenses:Health:Medical CNY ; 医疗药品
-2022-01-01 open Expenses:Health:Equipment CNY ; 医疗设备
+2010-01-01 open Expenses:Health
+2010-01-01 open Expenses:Health:Outpatient CNY  ; 含（门诊/挂号/体检）
+2010-01-01 open Expenses:Health:Medical CNY ; 医疗药品
+2010-01-01 open Expenses:Health:Equipment CNY ; 医疗设备
 
 ; 政府事务
-2022-01-01 open Expenses:Government
-2022-01-01 open Expenses:Government:Fine CNY  ; 罚款
-2022-01-01 open Expenses:Government:Insurance CNY ; 社会保险
-2022-01-01 open Expenses:Government:IncomeTax CNY ; 个人所得税
+2010-01-01 open Expenses:Government
+2010-01-01 open Expenses:Government:Fine CNY  ; 罚款
+2010-01-01 open Expenses:Government:IncomeTax CNY ; 个人所得税
 
-; 金融保险
-2022-01-01 open Expenses:Finance  ; 包含未知项
-2022-01-01 open Expenses:Finance:Commission  CNY  ; 金融中介(手续费/贷款利息等)
-2022-01-01 open Expenses:Finance:Insurance CNY  ; 商业保险(车险、医疗险、养老险、育儿险等)
-2022-01-01 open Expenses:Finance:Depreciation CNY  ; 大件折旧(CarUsage/HouseUsage)
+; 金融
+2010-01-01 open Expenses:Finance  ; 包含未知项
+2010-01-01 open Expenses:Finance:Commission  CNY  ; 金融中介(手续费/贷款利息等)
+2010-01-01 open Expenses:Finance:Depreciation CNY  ; 大件折旧(CarUsage/HouseUsage)
+
+; 保险
+2010-01-01 open Expenses:Insurance:Government CNY ; 社会保险（失业保险/工伤保险），医疗和养老金由Assets管理
+2010-01-01 open Expenses:Insurance:Finance CNY  ; 商业保险(车险、燃气保险、运费险、育儿险等)
+
+; 人情来往
+2010-01-01 open Expenses:Relationship CNY  ; 人情赠予
+
+; 宠物
+2010-01-01 open Expenses:Pet CNY
 
 ; 暂无分类
-2022-01-01 open Expenses:Other CNY
+2010-01-01 open Expenses:Other CNY
