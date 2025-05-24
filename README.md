@@ -21,7 +21,7 @@
 ### Docker Compose
 
 ```yaml
-docker compose up -d 
+docker compose up -d
 ```
 
 ### Docker Cli

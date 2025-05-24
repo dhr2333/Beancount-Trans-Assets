@@ -18,7 +18,7 @@
 ; 2022-08-16 * "负债初始化"
 ;     Liabilities:CreditCard:Bank:CITIC:C0000  -0.00 CNY
 ;     Liabilities:CreditCard:Web:HuaBei           -0.00 CNY
-;     Equity:OpenBalance 
+;     Equity:OpenBalance
 
 include "01-expenses.bean"
 include "02-expenses.bean"
@@ -31,7 +31,7 @@ include "09-expenses.bean"
 include "10-expenses.bean"
 include "11-expenses.bean"
 include "12-expenses.bean"
-include "budget.bean"  ; 预算 
+include "budget.bean"  ; 预算
 include "cycle.bean"  ; 周期/分期
 include "event.bean"  ; 事件记录
 include "income.bean"  ; 收入(正常来说收入也存放*-expenses.bean文件)
