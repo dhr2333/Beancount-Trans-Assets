@@ -1,0 +1,14 @@
+2022-01-01 query "每年每月支出总和" "SELECT year, month, sum(position) AS total_expenses
+WHERE account ~ 'Expenses'
+GROUP BY year, month"
+
+2022-01-01 query "每年的收入总和" "SELECT year, sum(position) AS total_income
+WHERE account ~ 'Income'
+GROUP BY year"
+
+2022-01-01 query "所有个人应收款" "SELECT payee,sum(position)
+WHERE account = 'Assets:Receivables:Personal'"
+
+2022-01-01 query "每个商家的支出" "SELECT payee,SUM(COST(position)) AS balance
+WHERE account ~ 'Expenses'
+GROUP BY payee"
