@@ -43,5 +43,7 @@ plugin "beancount.plugins.unique_prices"  ; 确保每个日期和基本/报价�
 include "depreciation.bean"
 
 ; 5. 交易记录
+include "trans/main.bean"  ; 所有被 Beancount-Trans 平台解析的交易记录。若不使用 Beancount-Trans 平台，则可以注释该行运行 Fava 服务。
+
 include "2022_template/00.bean"  ; Beancount-Trans项目会自动include账单
 ; include "2023/00.bean"
