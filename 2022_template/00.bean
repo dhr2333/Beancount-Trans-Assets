@@ -39,11 +39,9 @@ include "note.bean"  ; 注释
 include "price.bean"  ; 价格变动
 include "query.bean"  ; 查询
 include "securities.bean"  ; 投资(正常来说投资也存放*-expenses.bean文件)
-include "time.bean"  ;  按次消费(通常是直接用券支付没有账单可以体现)
-
 
 ; pushtag #20221001-hangzhou  ; 所有在pushtag和poptag之间的记录都会被打上标签
-; 2022-01-01 * "代付模板"
+; 2010-01-01 * "代付模板"
 ;     Expenses:Food:Lunch                        10.00 CNY
 ;     Assets:Receivables:Personal      10.00 CNY
 ;     Assets:Receivables:Personal     10.00 CNY
@@ -54,7 +52,7 @@ include "time.bean"  ;  按次消费(通常是直接用券支付没有账单可�
 ;     Liabilities:CreditCard:Bank:CITIC:C6428 -30.00 CNY
 ; poptag #20221001-hangzhou
 
-; 2022-01-01 * "腾讯" "王者荣耀充值"
+; 2010-01-01 * "腾讯" "王者荣耀充值"
 ;     Assets:Savings:Recharge:WangZhe            10.00 TOKEN @@ 1.00 CNY
 ;     Assets:Savings:Web:WechatPay               -1.00 CNY
 ;     Liabilities:CreditCard:Bank:CITIC:C6428 -1.00 CNY

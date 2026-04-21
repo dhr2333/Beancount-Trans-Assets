@@ -1,1 +1,2 @@
-2010-01-01 open Equity:OpenBalance ;账户初始化
+2010-01-01 open Equity:Opening-Balances  ; 初始建账时资产与负债的差额，仅初始化时使用一次
+2010-01-01 open Equity:Adjustments  ; 财务调整与差错更正，说明调整原因并逐步清零

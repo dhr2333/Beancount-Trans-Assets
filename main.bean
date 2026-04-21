@@ -5,11 +5,11 @@ option "operating_currency" "COIN"
 option "operating_currency" "TIME"
 option "documents" "document"  ; 文件上传保存至该目录
 
-2022-01-01 custom "fava-option" "language" "zh_CN"
-2022-01-01 custom "fava-option" "auto-reload" "true"  ; 设置为 true 可使 Fava 在检测到文件更改时自动重新加载页面
-2022-01-01 custom "fava-option" "default-page" "balance_sheet/"  ; 访问 Fava 时要重定向到的页面
-2022-01-01 custom "fava-option" "indent" "2"  ; 缩进的数字空格
-2022-01-01 custom "fava-option" "sidebar-show-queries" "7"  ; 侧边栏中链接的最大查询数
+2010-01-01 custom "fava-option" "language" "zh_CN"
+2010-01-01 custom "fava-option" "auto-reload" "true"  ; 设置为 true 可使 Fava 在检测到文件更改时自动重新加载页面
+2010-01-01 custom "fava-option" "default-page" "balance_sheet/"  ; 访问 Fava 时要重定向到的页面
+2010-01-01 custom "fava-option" "indent" "2"  ; 缩进的数字空格
+2010-01-01 custom "fava-option" "sidebar-show-queries" "7"  ; 侧边栏中链接的最大查询数
 
 ; 2. 账户设置
 include "account/assets.bean"
@@ -20,7 +20,7 @@ include "account/liabilities.bean"
 
 ; 3. 插件管理(v2)
 ; plugin "beancount.plugins.forecast"  ; 分期插件
-; 2022-01-01 # "车贷 [MONTHLY REPEAT 36 TIMES]"  ; 案例
+; 2010-01-01 # "车贷 [MONTHLY REPEAT 36 TIMES]"  ; 案例
 ;     Assets:Savings:Bank:ICBC:C5244     -4499.68 CNY
 ;     Liabilities:Payables:Organization:BYD    4499.68 CNY
 plugin "beancount.plugins.auto_accounts"  ; 根据条目自动添加账户插件

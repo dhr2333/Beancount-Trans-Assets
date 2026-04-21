@@ -1,19 +1,24 @@
-2010-01-01 open Income:Salary:GongSiJianCheng CNY  ; 工资收益,个人推荐详细记录
-2010-01-01 open Income:Salary:GongSiJianCheng:Subsidy CNY  ; 补贴
-2010-01-01 open Income:Salary:GongSiJianCheng:Subsidy:Meal CNY  ; 餐补
-2010-01-01 open Income:Salary:GongSiJianCheng:Subsidy:Provident CNY  ; 公积金
-2010-01-01 open Income:Salary:GongSiJianCheng:Subsidy:Other CNY  ; 其他补贴
-2010-01-01 open Income:Salary:GongSiJianCheng:Deduct CNY  ; 扣款(迟到、早退、旷工等)
-2010-01-01 open Income:Salary:GongSiJianCheng:Indemnity CNY  ; 赔偿金
-2010-01-01 open Income:Sideline CNY  ; 主动收益（副业、兼职等）
-2010-01-01 open Income:Investment CNY  ; 被动收益(股票、黄金、出租等)
-2010-01-01 open Income:Investment:Interest CNY  ; 利息收入（银行、债券）
+; 主动收入
+; 2023-05-12 open Income:Active:Business CNY  ; 企业经营收入
+; 2010-01-01 open Income:Active:Freelance CNY  ; 兼职/自由职业
+; 2021-08-23 open Income:Active:Salary CNY  ; 工资收益
+; 2021-08-23 open Income:Active:Salary:Subsidy:Meal CNY  ; 餐补
+; 2021-08-23 open Income:Active:Salary:Subsidy:Provident CNY  ; 公积金
+; 2021-08-23 open Income:Active:Salary:Deduct CNY  ; 扣款(迟到、早退、旷工等)
 
-2010-01-01 open Income:Grants CNY  ; 补助和津贴（政府补助（住房、购车、失业等）、教育津贴等）
-2010-01-01 open Income:Windfall CNY  ; 意外之财（彩票、遗产、礼物）
-2010-01-01 open Income:LegalSettlements:InsuranceClaims CNY  ; 保险理赔（车险赔偿、医疗赔偿等）
-2010-01-01 open Income:Relationship CNY  ; 人情收入（各项礼金建议由该账户管理）
-; 2010-01-01 open Income:RedPacket  ; 红包（微信支付宝抢到的红包及赠送的现金红包）
-2010-01-01 open Income:RedPacket:Personal CNY  ; 私人红包（微信支付宝抢到的红包及赠送的现金红包）
-2010-01-01 open Income:RedPacket:Organization CNY  ; 机构红包（含购物卡、付款时的优惠抵扣商家活动等）
-2010-01-01 open Income:Other CNY  ; 未分类
+; 被动收入
+; 2010-01-01 open Income:Investment CNY  ; 被动收益(利息、股息、资本得利、租金、版权/专利费等）
+; 2010-01-01 open Income:Investment:Interest CNY,COIN  ; 利息收入（银行、债券）
+; 2010-01-01 open Income:Investment:Dividends CNY     ; 股息收入（股票、基金分红）
+; 2010-01-01 open Income:Investment:CapitalGains CNY  ; 资本利得（卖出投资品的盈利部分）
+; 2010-01-01 open Income:Investment:Rental CNY        ; 租金收入（房产、设备出租）
+; 2010-01-01 open Income:Investment:Royalty CNY     ; 版税/专利收入
+
+; 转移收入
+; 2010-01-01 open Income:Transfer:Personal  ; 来自个人的转移（礼物、红包）
+; 2010-01-01 open Income:Transfer:Relationship CNY  ; 人情往来
+; 2010-01-01 open Income:Transfer:Organizational  ; 来自组织/企业的转移（机构红包、优惠抵扣、补偿）
+; 2010-01-01 open Income:Transfer:Governmental  ; 来自政府的转移（补助、津贴、退税）
+
+; 暂无分类
+; 2023-01-01 open Income:Other

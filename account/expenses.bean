@@ -1,62 +1,45 @@
-; 餐饮美食
-2010-01-01 open Expenses:Food
-2010-01-01 open Expenses:Food:Breakfast CNY  ; 早餐
-2010-01-01 open Expenses:Food:Lunch CNY  ; 午餐
-2010-01-01 open Expenses:Food:Dinner CNY  ; 晚餐
-2010-01-01 open Expenses:Food:DrinkFruit CNY ; 饮料水果
-
-; 购物消费
-2010-01-01 open Expenses:Shopping
-2010-01-01 open Expenses:Shopping:Clothing CNY ; 服饰鞋包
-2010-01-01 open Expenses:Shopping:Digital CNY ; 数码电器
-2010-01-01 open Expenses:Shopping:Makeup CNY ; 个人护理(含美容美发)
-2010-01-01 open Expenses:Shopping:Parent CNY ; 母婴亲子
-2010-01-01 open Expenses:Shopping:Daily CNY  ; 日用百货(家庭共用消耗品)
-
-; 交通运输
-2010-01-01 open Expenses:TransPort
-2010-01-01 open Expenses:TransPort:Public CNY ; 公共交通(飞机/高铁/打车/公交/地铁/高速等)
-2010-01-01 open Expenses:TransPort:Private CNY ; 养车爱车
-2010-01-01 open Expenses:TransPort:Fuel CNY  ; 燃料费，包含汽油及电费
-2010-01-01 open Expenses:TransPort:Park CNY ; 停车费
+; 除 Expenses:Food、Expenses:Shopping、Expenses:Culture 外，其他二级账户尽量不使用
+; 对于教育、育儿、宠物、装修等跨多个账户的类目，增加标签记录
 
 ; 文化休闲
-2010-01-01 open Expenses:Culture
-2010-01-01 open Expenses:Culture:Travel CNY  ; 酒店旅游(门票、酒店)
-2010-01-01 open Expenses:Culture:Education CNY  ; 教育培训
-2010-01-01 open Expenses:Culture:Entertainment  CNY  ; 影音娱乐
-2010-01-01 open Expenses:Culture:Subscription CNY,USD ; 订阅服务(网易云音乐/华为/有道云笔记)
+; 2010-01-01 open Expenses:Culture  ; 非实物消费/服务
+; 2010-01-01 open Expenses:Culture:Travel CNY  ; 酒店旅游(门票、酒店)，完整旅游开销以标签形式记录
+; 2010-01-01 open Expenses:Culture:Entertainment CNY,TOKEN  ; 娱乐活动
+; 2010-01-01 open Expenses:Culture:Subscription CNY,USD,COIN ; 订阅服务(网易云音乐/华为/有道云笔记)
+; 2010-01-01 open Expenses:Culture:Relationship CNY  ; 人情往来
 
-; 居家生活
-2010-01-01 open Expenses:Home  ; 含（房租/快递）
-2010-01-01 open Expenses:Home:Recharge CNY  ; 充值缴费(水电燃气/物业/话费等)
-2010-01-01 open Expenses:Home:Decoration CNY  ; 家居家装,并添加#DECORATION标签
+; 财务金融
+; 2010-01-01 open Expenses:Finance CNY  ; 投资以`Income:Investment`记录
+; 2010-01-01 open Expenses:Finance:Commission CNY,USD  ; 金融中介(手续费/贷款利息等)
+; 2010-01-01 open Expenses:Finance:Fine CNY  ; 罚款
+; 2010-01-01 open Expenses:Finance:Insurance CNY  ;含（社会保险/商业保险/个人所得税）
+
+; 餐饮美食
+; 2010-01-01 open Expenses:Food CNY
+; 2010-01-01 open Expenses:Food:Breakfast CNY  ; 早餐
+; 2010-01-01 open Expenses:Food:Lunch CNY  ; 午餐
+; 2010-01-01 open Expenses:Food:Dinner CNY  ; 晚餐
+; 2010-01-01 open Expenses:Food:DrinkFruit CNY ; 饮料水果
 
 ; 医疗健康
-2010-01-01 open Expenses:Health
-2010-01-01 open Expenses:Health:Outpatient CNY  ; 含（门诊/挂号/体检）
-2010-01-01 open Expenses:Health:Medical CNY ; 医疗药品
-2010-01-01 open Expenses:Health:Equipment CNY ; 医疗设备
+; 2010-01-01 open Expenses:Health
+; 2010-01-01 open Expenses:Health:Medical ; 直接医疗费用（门诊/挂号/体检/药品/疫苗/治疗费等）
+; 2010-01-01 open Expenses:Health:Equipment CNY ; 实物医疗设备/器械资产（口罩/血压计/按摩仪/眼药水等）
 
-; 政府事务
-2010-01-01 open Expenses:Government
-2010-01-01 open Expenses:Government:Fine CNY  ; 罚款
-2010-01-01 open Expenses:Government:IncomeTax CNY ; 个人所得税
+; 居家生活
+; 2010-01-01 open Expenses:Home
+; 2010-01-01 open Expenses:Home:Rent CNY  ; 房租/房贷
+; 2010-01-01 open Expenses:Home:Utilities CNY,COIN  ; 公共事业(水/电/气/网/物业/物流等)
 
-; 金融
-2010-01-01 open Expenses:Finance  ; 包含未知项
-2010-01-01 open Expenses:Finance:Commission  CNY  ; 金融中介(手续费/贷款利息等)
-2010-01-01 open Expenses:Finance:Depreciation CNY  ; 大件折旧(CarUsage/HouseUsage)
+; 购物消费
+; 2010-01-01 open Expenses:Shopping CNY  ; 实物消费
+; 2010-01-01 open Expenses:Shopping:Clothing CNY ; 服饰鞋包
+; 2010-01-01 open Expenses:Shopping:Digital CNY ; 数码电器
+; 2010-01-01 open Expenses:Shopping:Daily CNY  ; 日用百货（家庭共用消耗品：纸巾、垃圾袋、清洁剂、洗衣液等）
+; 2010-01-01 open Expenses:Shopping:PersonalCare CNY ; 个人护理（私人用品消耗品：牙膏、洗发水、护肤品）
 
-; 保险
-2010-01-01 open Expenses:Insurance:Government CNY ; 社会保险（失业保险/工伤保险），医疗和养老金由Assets管理
-2010-01-01 open Expenses:Insurance:Finance CNY  ; 商业保险(车险、燃气保险、运费险、育儿险等)
-
-; 人情来往
-2010-01-01 open Expenses:Relationship CNY  ; 人情赠予
-
-; 宠物
-2010-01-01 open Expenses:Pet CNY
-
-; 暂无分类
-2010-01-01 open Expenses:Other CNY
+; 交通运输
+; 2010-01-01 open Expenses:TransPort CNY
+; 2010-01-01 open Expenses:TransPort:Public CNY ; 公共交通(飞机/高铁/打车/公交/地铁/高速等)
+; 2010-01-01 open Expenses:TransPort:Private CNY ; 私家车的所有费用
+; 2010-01-01 open Expenses:TransPort:Private:Park CNY ; 停车费
