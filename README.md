@@ -17,7 +17,7 @@
 │   ├── 00.bean        # 年度入口，include 各月度文件
 │   └── 01.bean ~ 12.bean   # 月度账本
 ├── .gitignore
-└── Dockerfile、docker-compose.yaml、Pipfile、requirements.txt  # 本地运行 Fava（可选）
+└── Dockerfile、docker-compose.yaml、requirements.txt  # 本地运行 Fava（可选）
 ```
 
 ## 平台集成约定

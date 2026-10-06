@@ -1,0 +1,22 @@
+version: 2
+updates:
+  # requirements.txt：beancount / fava 及其配套包统一分到同一 group，
+  # 避免单独升级 fava 导致与 beancount 版本不匹配的半吊子 PR
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+    groups:
+      beancount-ecosystem:
+        patterns:
+          - "beancount"
+          - "beangulp"
+          - "beanquery"
+          - "fava"
+
+  # Dockerfile 基础镜像 python:3.12-slim
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "weekly"
