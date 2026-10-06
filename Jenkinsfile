@@ -17,7 +17,7 @@ pipeline {
     agent any
 
     options {
-        timeout(time: 30, unit: 'MINUTES')
+        timeout(time: 60, unit: 'MINUTES')
         buildDiscarder(logRotator(numToKeepStr: '5'))
     }
 
@@ -58,7 +58,7 @@ pipeline {
                 retry(3) {
                     sh '''
                         echo "🐳 构建镜像..."
-                        docker build -t ${DOCKERHUB_REPO}:${IMAGE_TAG} .
+                        DOCKER_BUILDKIT=1 docker build -t ${DOCKERHUB_REPO}:${IMAGE_TAG} .
                     '''
                 }
             }
