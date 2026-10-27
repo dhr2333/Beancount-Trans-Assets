@@ -5,7 +5,7 @@ beangulp==0.2.0
 beanquery==0.2.0
 beautifulsoup4==4.15.0
 blinker==1.9.0
-chardet==7.6.0
+chardet==7.7.0
 cheroot==11.1.2
 click==8.5.0
 fava==1.30.16
