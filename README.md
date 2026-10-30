@@ -1,6 +1,6 @@
 # Beancount-Trans-Assets
 
-为 [Beancount-Trans](https://github.com/dhr2333/Beancount-Trans) 提供标准化的 Beancount 账本模板：平台为用户创建 Git 账本仓库时，会读取本仓库 `main` 分支的内容作为初始账本。
+为 [Beancount-Trans](https://github.com/Beancount-Trans/Beancount-Trans) 提供标准化的 Beancount 账本模板：平台为用户创建 Git 账本仓库时，会读取本仓库 `main` 分支的内容作为初始账本。
 
 ## 目录结构
 
